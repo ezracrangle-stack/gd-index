@@ -6,7 +6,7 @@
 <p class="dek">Everyone Graham &amp; Doddsville has interviewed, sorted by last name.</p>
 <form class="filter" role="search" onsubmit="return false"><label class="sr" for="f">Filter investors</label>
   <input id="f" type="search" placeholder="Filter by name or firm" autocomplete="off"></form>
-<table class="mtable" id="list">
+<table class="mtable" id="list" data-per="50">
   <thead><tr><th>Investor</th><th>Firm</th><th class="num">Interviews</th></tr></thead>
   <tbody>
   {% for inv in investors %}
@@ -19,4 +19,4 @@
   </tbody>
 </table>
 {% endblock %}
-{% block scripts %}<script src="{{ root }}static/filter.js"></script>{% endblock %}
+{% block scripts %}<script src="{{ root }}static/pager.js"></script><script src="{{ root }}static/filter.js"></script>{% endblock %}

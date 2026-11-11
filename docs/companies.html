@@ -11,7 +11,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="static/style.css?v=1794399096">
+<link rel="stylesheet" href="static/style.css?v=1794399909">
 <link rel="alternate" type="application/rss+xml" title="The G&D Index · Ezra's Notes" href="feed.xml">
 
 <meta property="og:title" content="Companies · Ezra's Notes">
@@ -55,7 +55,7 @@
 <p class="dek">Companies an investor discusses as an investment or a case study, and every company a student pitched. Passing mentions are left out.</p>
 <form class="filter" role="search" onsubmit="return false"><label class="sr" for="f">Filter companies</label>
   <input id="f" type="search" placeholder="Filter by company" autocomplete="off"></form>
-<ul class="clist" id="list">
+<ul class="clist" id="list" data-per="60">
 
   <li data-q="A.O. Smith"><a href="c/a-o-smith.html">A.O. Smith</a>
     <span class="ccount">pitch</span></li>
@@ -1075,6 +1075,6 @@
 </footer>
 <script>document.querySelectorAll('a.mail').forEach(function(a){var e=a.dataset.u+'@'+a.dataset.d;a.href='mailto:'+e;a.textContent=e;});</script>
 <script>(function(){var b=document.getElementById('theme-toggle'),r=document.documentElement;function label(){b.textContent=r.getAttribute('data-theme')==='dark'?'Light':'Dark'}label();b.addEventListener('click',function(){var t=r.getAttribute('data-theme')==='dark'?'light':'dark';r.setAttribute('data-theme',t);try{localStorage.setItem('theme',t)}catch(e){}label()})})();</script>
-<script src="static/filter.js"></script>
+<script src="static/pager.js"></script><script src="static/filter.js"></script>
 </body>
 </html>

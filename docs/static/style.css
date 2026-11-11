@@ -240,6 +240,7 @@ footer { margin-top: 56px; padding-top: 14px; border-top: 3px double var(--rule)
 }
 .section-head { font-size: 22px; margin: 30px 0 4px; }
 .top10 { columns: 2 260px; }
+[hidden] { display: none !important; }
 .pager { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 10px 18px; margin: 10px 0 26px;
   font: 13px/1 var(--head); text-transform: uppercase; letter-spacing: .08em; }
 .pager a { color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--ink); padding-bottom: 2px; }
@@ -313,3 +314,13 @@ footer { margin-top: 56px; padding-top: 14px; border-top: 3px double var(--rule)
   .ptable .when, .ptable .who, .ptable .style { width: auto; }
 }
 .security { font-weight: 400; font-size: 15px; color: var(--mute); }
+
+/* Pager for long lists */
+.pager { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin: 22px 0 8px; }
+.pager button { font: 11px/1 var(--head); text-transform: uppercase; letter-spacing: .12em; color: var(--ink); background: none;
+  border: 1px solid var(--ink); padding: 9px 11px 8px; min-width: 36px; cursor: pointer; }
+.pager button:hover:not(:disabled) { background: var(--hover); }
+.pager button[aria-current="page"] { background: var(--ink); color: var(--paper); }
+.pager button:disabled { opacity: .35; cursor: default; }
+.pager .gap { padding: 0 2px; color: var(--mute); }
+.pager .pinfo { margin-left: 8px; color: var(--mute); }
