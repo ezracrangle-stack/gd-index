@@ -4,6 +4,7 @@
     python scripts/build.py --preview  # also shows draft issues and draft summaries, marked
 """
 import argparse
+import hashlib
 import datetime as dt
 import json
 import re
@@ -132,7 +133,8 @@ def main():
     (OUT / "CNAME").write_text("gd.ezrasnotes.com\n")
 
     env = Environment(loader=FileSystemLoader(ROOT / "templates"), autoescape=select_autoescape())
-    asset_v = str(int((ROOT / "static" / "style.css").stat().st_mtime))
+    # Content hash: same files give the same pages, so rebuilds don't touch every page.
+    asset_v = hashlib.sha1(b"".join(f.read_bytes() for f in sorted((ROOT / "static").glob("*.[cj]s*")))).hexdigest()[:10]
     common = dict(site=site, preview=args.preview, asset_v=asset_v,
                   updated=checked_on(),
                   counts={"issues": len(issues), "interviews": sum(len(i["interviews"]) for i in issues),

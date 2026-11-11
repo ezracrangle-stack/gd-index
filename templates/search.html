@@ -8,4 +8,4 @@
   <input id="q" type="search" placeholder="Try Wachenheim, Eagle, Danaher or short selling" autocomplete="off" autofocus></form>
 <div id="results" data-root="{{ root }}" data-index="{{ root }}search.json"></div>
 {% endblock %}
-{% block scripts %}<script src="{{ root }}static/search.js"></script>{% endblock %}
+{% block scripts %}<script src="{{ root }}static/search.js?v={{ asset_v }}"></script>{% endblock %}
