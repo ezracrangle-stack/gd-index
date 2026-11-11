@@ -25,7 +25,7 @@
 <link rel="icon" href="{{ root }}static/favicon.ico" sizes="any">
 <link rel="apple-touch-icon" href="{{ root }}static/apple-touch-icon.png">
 <link rel="canonical" href="{{ page_url }}">
-{% if preview %}<meta name="robots" content="noindex">{% endif %}
+{% if preview or page == "404.html" %}<meta name="robots" content="noindex">{% endif %}
 </head>
 <body>
 {% if preview %}<p class="preview-bar">Preview. Drafts are shown and marked; they stay hidden on the live site.</p>{% endif %}

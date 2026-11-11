@@ -140,7 +140,11 @@ def main():
                   counts={"issues": len(issues), "interviews": sum(len(i["interviews"]) for i in issues),
                           "pitches": len(pitches), "investors": len(investors)})
 
+    pages = []
+
     def render(tpl, page, **kw):
+        if page != "404.html":
+            pages.append(page)
         depth = page.count("/")
         html = env.get_template(tpl).render(page=page, root="../" * depth, **common, **kw)
         p = OUT / page
@@ -167,6 +171,13 @@ def main():
     render("search.html", "search.html")
     render("about.html", "about.html")
     render("404.html", "404.html")
+
+    # Sitemap and robots.txt so search engines find every page.
+    urls = [site["site_url"] + "/" + ("" if p == "index.html" else p) for p in pages]
+    (OUT / "sitemap.xml").write_text(
+        '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+        + "".join(f"<url><loc>{escape(u)}</loc></url>\n" for u in urls) + "</urlset>\n")
+    (OUT / "robots.txt").write_text(f"User-agent: *\nAllow: /\n\nSitemap: {site['site_url']}/sitemap.xml\n")
 
     # Search index: short keys keep the file small.
     idx = []
