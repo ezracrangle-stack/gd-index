@@ -43,10 +43,8 @@ def alias_map(table):
 
 
 def checked_on():
-    """Date of the last weekly check, shown as 'Checked ...' in the header."""
-    p = DATA / "last_check.json"
-    d = dt.date.fromisoformat(json.loads(p.read_text())["checked"]) if p.exists() else dt.date.today()
-    return d.strftime("%B %-d, %Y")
+    """Build date, shown as 'Updated ...' in the header. The site only rebuilds when the data changes."""
+    return dt.date.today().strftime("%B %-d, %Y")
 
 
 def main():

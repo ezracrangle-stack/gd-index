@@ -1,0 +1,39 @@
+name: Monthly G&D reminder
+
+# Columbia's site blocks GitHub's servers, so this job does not read it.
+# Once a month it opens an issue reminding Ezra to look for a new edition.
+
+on:
+  schedule:
+    - cron: "41 14 1 * *"      # the 1st of every month, 14:41 UTC (8:41 am in Mexico City)
+  workflow_dispatch:
+
+permissions:
+  issues: write
+
+jobs:
+  remind:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Open the reminder (once; never a second one while one is open)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh label create gd-reminder --color 0E8A16 --description "Monthly reminder" 2>/dev/null || true
+          OPEN=$(gh issue list --label gd-reminder --state open --json number --jq '.[0].number')
+          if [ -n "$OPEN" ]; then
+            echo "Reminder #$OPEN is still open. Nothing to do."
+            exit 0
+          fi
+          LATEST=$(python3 -c "import glob,re; r=[(re.search(r'^date: *(\\S+)',t,re.M).group(1),re.search(r'^label: *(.+)',t,re.M).group(1)) for t in (open(f).read() for f in glob.glob('data/issues/*.yaml'))]; print(max(r)[1])")
+          {
+            echo "Time to check for a new Graham & Doddsville edition."
+            echo
+            echo "1. Open Columbia's archive: https://business.columbia.edu/heilbrunn/resources/graham-and-doddsville-newsletter"
+            echo "2. The newest edition in the index is **${LATEST}**."
+            echo "3. If there is a newer one, start a Claude session and ask it to index it. If not, just close this issue."
+          } > reminder.md
+          gh issue create --title "G&D Index: any new edition this month?" --label gd-reminder --body-file reminder.md

@@ -52,16 +52,13 @@ Es igual al registro `letters` que ya tienes; solo cambia el nombre.
 2. Marca **Enforce HTTPS**. Si la casilla aparece gris, espera un poco más; GitHub está emitiendo el certificado.
 3. Abre https://gd.ezrasnotes.com.
 
-## 7. Corre la revisión semanal una vez a mano
+## 7. El recordatorio mensual
 
-1. **Actions** → a la izquierda, **Weekly G&D check** → **Run workflow** → **Run workflow**.
-2. Espera unos 2 minutos.
-   - Palomita verde y ningún issue nuevo: todo bien. Desde aquí corre solo cada lunes a las 7:41 am.
-   - Si se abre un issue que dice que no pudo leer la página de Columbia, probablemente Cloudflare bloquea a GitHub. Avísame y vemos otra salida. No se borra nada.
+La página de Columbia bloquea a los servidores de GitHub, así que nada la revisa automáticamente. En su lugar, el día 1 de cada mes se abre un issue "any new edition this month?" con el enlace al archivo de Columbia y el último número indexado. Si hay uno nuevo, abres una sesión con Claude para indexarlo. Si no, cierras el issue.
 
 ## 8. Asegúrate de recibir los avisos por correo
 
-Arriba en el repositorio, botón **Watch** → **All Activity**. Así cada issue del proceso (número nuevo o problema) te llega por correo.
+Arriba en el repositorio, botón **Watch** → **All Activity**. Así el recordatorio mensual y cualquier aviso de error te llegan por correo.
 
 ## 9. Google Analytics
 
