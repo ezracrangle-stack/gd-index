@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% from "_items.html" import interview, pitch %}
+{% block title %}{{ co.name }} in Graham & Doddsville{% endblock %}
+{% block description %}{{ co.name }} in Graham & Doddsville: interviews that discuss it and student pitches on it, linked to the page in each issue.{% endblock %}
+{% block main %}
+<p class="crumb"><a href="{{ root }}companies.html">&larr; All companies</a></p>
+<h1 class="page-title">{{ co.name }}</h1>
+<p class="dek">{% if co.interviews %}Discussed in {{ co.interviews|length }} interview{{ "s" if co.interviews|length != 1 }}{% endif %}{% if co.interviews and co.pitches %}, {% endif %}{% if co.pitches %}{% set n = co.pitches|length %}{{ "pitched" if co.interviews else "Pitched" }} by students {{ "once" if n == 1 else ("twice" if n == 2 else n ~ " times") }}{% endif %}.</p>
+{% if co.pitches %}
+<h2 class="rule-head">Student pitches</h2>
+<ul class="hits">{% for it in co.pitches %}{{ pitch(it, root, show_issue=True) }}{% endfor %}</ul>
+{% endif %}
+{% if co.interviews %}
+<h2 class="rule-head">Interviews</h2>
+<ul class="hits">{% for it in co.interviews %}{{ interview(it, root, show_issue=True) }}{% endfor %}</ul>
+{% endif %}
+{% endblock %}

@@ -1,0 +1,89 @@
+id: 2015-fall
+label: Fall 2015
+date: 2015-11
+number: 25
+pdf: https://business.columbia.edu/sites/default/files-efs/imce-uploads/Graham%20%26%20Doddsville_Issue%2025_0.pdf
+pages: 48
+status: published
+
+items:
+  - {type: other, page: 3, title: "From Graham to Buffett and Beyond Omaha dinner"}
+
+  - type: interview
+    page: 1
+    continues: 6
+    investors:
+      - {name: Alex Sacerdote, firm: Whale Rock Capital}
+    companies:
+      - {name: Apple}
+      - {name: Amazon}
+      - {name: Ellie Mae}
+      - {name: NetEase}
+    topics: [technology, growth]
+    summary: "Alex invests in technology with an S-curve framework to find companies whose earnings power can grow exponentially. His ideas include Apple, Amazon, Ellie Mae and NetEase."
+    summary_status: approved
+
+  - type: pitches
+    page: 16
+    title: Columbia IIC Meeting Ideas
+
+  - type: pitch
+    page: 16
+    company: Rentech Nitrogen Partners
+    security: "Paired with a short in CVR Partners"
+    direction: long
+    students: [Nielsen Fields]
+    summary: "A merger-arbitrage pair trade around Rentech Nitrogen selling its East Dubuque plant to CVR Partners."
+    summary_status: approved
+
+  - type: pitch
+    page: 18
+    company: Tenneco
+    direction: long
+    students: [Justin Hong]
+    summary: "The stock fell on China, mining and a Volkswagen disruption. Justin argues none of that touches the long tailwind from stricter emissions rules."
+    summary_status: approved
+
+  - type: pitch
+    page: 20
+    company: Las Vegas Sands
+    direction: short
+    students: [Alexander Levy]
+    summary: "The Macau growth story stopped working as China slowed and a corruption crackdown hit spending."
+    summary_status: approved
+
+  - type: interview
+    page: 1
+    continues: 22
+    investors:
+      - {name: Ed Bosek, firm: BeaconLight Capital}
+    companies:
+      - {name: Daqin Railway}
+      - {name: Builders FirstSource}
+    topics: [international, short-selling]
+    summary: "Ed looks for ideas that are Fundamental, Meaningful and Different. He runs a global generalist book, long and short, and walks through Daqin Railway in China and Builders FirstSource."
+    summary_status: approved
+
+  - type: interview
+    page: 1
+    continues: 34
+    investors:
+      - {name: Jane Siebels, firm: Siebels Asset Management Research}
+    companies: []
+    topics: [macro, international]
+    summary: "Jane grew up around commodities. She shares her outlook for commodities and emerging markets and explains her open, outsourced research platform."
+    summary_status: approved
+
+  - type: interview
+    page: 1
+    continues: 38
+    investors:
+      - {name: Hugh Wrigley, firm: Global Endowment Management}
+      - {name: James Ferguson, firm: Global Endowment Management}
+      - {name: Andrew Burns, firm: Global Endowment Management}
+    companies: []
+    topics: [firm-building, career-advice]
+    summary: "The GEM team on pay in the investment business, the value of being able to invest in small corners, and the risks of moving from analysis to management."
+    summary_status: approved
+
+  - {type: other, page: 2, title: "Welcome letter"}

@@ -1,0 +1,48 @@
+id: 2007-summer
+label: Summer 2007
+date: 2007-06
+number: 2
+pdf: https://business.columbia.edu/sites/default/files-efs/imce-uploads/Graham%20and%20Doddsville%20-%20Issue%202_Summer%202007.pdf
+pages: 22
+status: published
+
+items:
+  - type: interview
+    page: 1
+    continues: 2
+    investors:
+      - {name: David Winters, firm: Wintergreen Advisors}
+    companies: []
+    topics: [international, management]
+    summary: "David worked beside Michael Price at Mutual Series before founding Wintergreen. He describes his 'global treasure hunt' and his trifecta: a good business, management aligned with shareholders, and a low price."
+    summary_status: approved
+
+  - type: pitch
+    page: 12
+    company: Footstar
+    direction: long
+    students: [Jonathan Salinas]
+    summary: "A company in reorganization that sold its Footaction stores to Foot Locker for $225 million in cash and shut its weak operations."
+    summary_status: approved
+
+  - type: pitch
+    page: 14
+    company: Ainsworth Lumber
+    direction: short
+    students: [David Bernfeld]
+    summary: "A short on a maker of oriented strand board, at $7.70."
+    summary_status: approved
+
+  - {type: other, page: 16, title: "2007 CIMA Conference"}
+  - {type: other, page: 18, title: "Selected 13F filings"}
+
+  - type: interview
+    page: 20
+    investors:
+      - {name: Chuck Akre, firm: Akre Capital Management}
+    companies: []
+    topics: [quality-compounders, small-caps]
+    summary: "A short profile of Chuck Akre, from stockbroker at Johnston, Lemon to founding Akre Capital in 1989."
+    summary_status: approved
+
+  - {type: other, page: 2, title: "Students meet Warren Buffett in Omaha"}

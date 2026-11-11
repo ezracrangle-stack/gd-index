@@ -1,0 +1,86 @@
+id: 2017-spring
+label: Spring 2017
+date: 2017-05
+number: 30
+pdf: https://business.columbia.edu/sites/default/files-efs/imce-uploads/Graham%20%20Doddsville_Issue%2030_Spring%202017%20-%20v4.pdf
+pages: 44
+status: published
+
+items:
+  - {type: other, page: 3, title: "CSIMA Conference"}
+  - {type: other, page: 4, title: "Pershing Square Challenge"}
+
+  - type: interview
+    page: 1
+    continues: 5
+    investors:
+      - {name: A. Rama Krishna, firm: ARGA Investment Management}
+    companies: []
+    topics: [international, deep-value]
+    summary: "Rama applies value investing worldwide, with a focus on emerging markets. He explains why ARGA put nearly a quarter of its emerging-markets portfolio in Russia when other investors were leaving."
+    summary_status: approved
+
+  - type: interview
+    page: 1
+    continues: 14
+    investors:
+      - {name: Clifford Sosin, firm: CAS Investment Partners}
+    companies:
+      - {name: Herbalife}
+      - {name: World Acceptance}
+    topics: [portfolio-construction, career-advice]
+    summary: "Cliff runs a very concentrated, long-term book. He goes deep on two controversial ideas, Herbalife and World Acceptance, and gives some unusual career advice."
+    summary_status: approved
+
+  - type: pitches
+    page: 28
+    title: Student Ideas
+
+  - type: pitch
+    page: 28
+    company: Yum China
+    direction: long
+    students: [Windsor Cristobal, Anji Lin, Isabella Lin]
+    context: "10th Annual Pershing Square Challenge, winner"
+    summary: "A two-year target 35% above the price, with earnings per share the team expected to grow 64% in three years."
+    summary_status: approved
+
+  - type: pitch
+    page: 30
+    company: Alaska Air Group
+    direction: long
+    students: [Chris Waller, SK Lee, HK Kim]
+    context: "10th Annual Pershing Square Challenge, finalist"
+    summary: "Alaska, Virgin America and Horizon together make the fifth-largest US carrier. The team saw 154% upside over 5 years."
+    summary_status: approved
+
+  - type: pitch
+    page: 32
+    company: Corning
+    direction: long
+    students: [Griffin Dann, Joseph O'Hara, Vikas Patel]
+    context: "10th Annual Pershing Square Challenge, finalist"
+    summary: "The team argues the market undervalues Corning's core assets and overlooks growth in optical fiber and Gorilla Glass."
+    summary_status: approved
+
+  - type: pitch
+    page: 34
+    company: Dollarama
+    direction: long
+    students: [Gustavo Campanhã, Gilberto Giuzio, Thiago Maffra]
+    context: "10th Annual Pershing Square Challenge, finalist"
+    summary: "New stores could triple earnings per share in five years, with five times as much reward as risk."
+    summary_status: approved
+
+  - type: interview
+    page: 1
+    continues: 36
+    investors:
+      - {name: Christopher Begg, firm: East Coast Investment Management}
+    companies:
+      - {name: Sherwin-Williams}
+    topics: [quality-compounders, career-advice]
+    summary: "A Security Analysis adjunct at CBS on compounders, transformations and workouts, high-quality businesses that get overlooked like Sherwin-Williams, and learning across disciplines."
+    summary_status: approved
+
+  - {type: other, page: 2, title: "Welcome letter"}

@@ -1,0 +1,58 @@
+id: 2009-winter
+label: Winter 2009
+date: 2009-01
+number: 5
+pdf: https://business.columbia.edu/sites/default/files-efs/imce-uploads/Graham%20and%20Doddsville%20-%20Issue%205%20Winter%202009.pdf
+pages: 35
+status: published
+
+items:
+  - type: interview
+    page: 1
+    continues: 2
+    investors:
+      - {name: Bruce Berkowitz, firm: Fairholme Capital Management}
+    companies: []
+    topics: [portfolio-construction, deep-value]
+    summary: "Bruce runs Fairholme as if his investors had all their money in it. He talks about 'don't lose' as rule number one and what growing up around bookmaking taught him about odds."
+    summary_status: approved
+
+  - {type: other, page: 14, title: "Highlights from the Graham & Dodd Breakfast"}
+
+  - type: pitch
+    page: 16
+    company: Marvel Entertainment
+    direction: short
+    students: [Avram Drori]
+    summary: "Overvalued at $30, with unusual financing and accounting and slowing long-term demand."
+    summary_status: approved
+
+  - type: pitch
+    page: 18
+    company: Horsehead Holding
+    direction: long
+    students: [Grant Bowman]
+    summary: "The lowest-cost producer of specialty zinc, because steel mini-mills pay it to take the dust its process uses."
+    summary_status: approved
+
+  - type: interview
+    page: 20
+    investors:
+      - {name: Michael Mauboussin, firm: Legg Mason}
+    companies: []
+    topics: [macro]
+    summary: "Legg Mason's chief investment strategist on investor behavior, how it moves prices, and his view of the market in late 2008."
+    summary_status: approved
+
+  - {type: other, page: 29, title: "Security Analysis symposium"}
+
+  - type: interview
+    page: 31
+    investors:
+      - {name: Bruce Greenwald, firm: Columbia Business School}
+    companies: []
+    topics: [financials, career-advice]
+    summary: "Bruce on analyzing financial companies, the new edition of Security Analysis, and the three traits a great investor needs."
+    summary_status: approved
+
+  - {type: other, page: 2, title: "Welcome letter"}

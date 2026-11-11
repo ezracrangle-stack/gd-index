@@ -1,0 +1,76 @@
+id: 2016-fall
+label: Fall 2016
+date: 2016-11
+number: 28
+pdf: https://business.columbia.edu/sites/default/files-efs/imce-uploads/Graham%20%20Doddsville_Issue%2028_Fall2016.pdf
+pages: 43
+status: published
+
+items:
+  - {type: other, page: 3, title: "From Graham to Buffett and Beyond Omaha dinner"}
+  - {type: other, page: 4, title: "Value Investing reception"}
+
+  - type: interview
+    page: 1
+    continues: 6
+    investors:
+      - {name: Alex Seaver, firm: Stadium Capital Management}
+      - {name: Brad Kent, firm: Stadium Capital Management}
+    companies: []
+    topics: [activism, small-caps]
+    summary: "Two partners who left private equity for public markets. They walk through how Stadium's strategy changed, its research and valuation process, and the activist campaigns it took on reluctantly."
+    summary_status: approved
+
+  - type: pitches
+    page: 20
+    title: Student Investment Ideas
+
+  - type: pitch
+    page: 20
+    company: Live Nation Entertainment
+    direction: long
+    students: [Jocelyn Doman]
+    context: "Women's Investment Ideas Club event"
+    summary: "Concerts, ticketing, artist management and sponsorship in one company, with improving economics."
+    summary_status: approved
+
+  - type: pitch
+    page: 22
+    company: Skyworks Solutions
+    direction: long
+    students: [Maria Muller, William Hinman, Mark Shohet]
+    context: "2016 Pershing Square Challenge"
+    summary: "More dollars of RF components in every phone give Skyworks a long revenue runway. The team saw 63% upside."
+    summary_status: approved
+
+  - type: pitch
+    page: 24
+    company: AMERCO
+    direction: long
+    students: [Kenneth Chan, Anton Korytsko, Alexander Teixeira]
+    context: "2016 Ross MBA Investment Competition, 2nd place"
+    summary: "North America's largest do-it-yourself moving and storage operator, with a fleet of more than 250,000 vehicles. The team saw 40% upside."
+    summary_status: approved
+
+  - type: interview
+    page: 1
+    continues: 26
+    investors:
+      - {name: Neal Nathani, firm: Totem Point Management}
+    companies:
+      - {name: Analog Devices}
+    topics: [technology, growth]
+    summary: "Neal on what the dot-com bubble taught him about business quality, building teams by watching Wayne Gretzky, and Analog Devices as a less cyclical chip company."
+    summary_status: approved
+
+  - type: interview
+    page: 1
+    continues: 35
+    investors:
+      - {name: Chris Weldon, firm: Stamina Capital}
+    companies: []
+    topics: [quality-compounders, firm-building]
+    summary: "Chris on launching Stamina, moving from analyst to portfolio manager, and owning compounders and businesses in a quality transition for a long time."
+    summary_status: approved
+
+  - {type: other, page: 2, title: "Welcome letter"}

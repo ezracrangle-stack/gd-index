@@ -1,0 +1,104 @@
+id: 2012-winter
+label: Winter 2012
+date: 2012-01
+number: 14
+pdf: https://business.columbia.edu/sites/default/files-efs/imce-uploads/Graham%20%26%20Doddsville%20-%20Issue%2014%20-%20Winter%202012.pdf
+pages: 52
+status: published
+
+items:
+  - type: interview
+    page: 1
+    continues: 3
+    investors:
+      - {name: William von Mueffling, firm: Cantillon Capital Management}
+    companies:
+      - {name: Bank Rakyat Indonesia}
+      - {name: Royal Vopak}
+      - {name: Oriflame}
+    topics: [moats, quality-compounders, international]
+    summary: "Cantillon invests in companies with high, lasting financial productivity. William talks through different kinds of moats and his theses on Bank Rakyat, Royal Vopak and Oriflame."
+    summary_status: approved
+
+  - type: interview
+    page: 2
+    continues: 37
+    investors:
+      - {name: William C. Martin, firm: Raging Capital Management}
+    companies: []
+    topics: [growth, short-selling]
+    summary: "An entrepreneur turned investor who founded Raging Bull before Raging Capital. He buys companies with strong growth and shorts some of the most overvalued and crooked ones."
+    summary_status: approved
+
+  - type: interview
+    page: 1
+    continues: 11
+    investors:
+      - {name: Michael Karsch, firm: Karsch Capital Management}
+    companies:
+      - {name: Viacom}
+    topics: [career-advice]
+    summary: "Michael on deep diligence, finding a point of difference, judging companies by where they sit in their life cycle, and his firm's thesis on Viacom."
+    summary_status: approved
+
+  - type: interview
+    page: 1
+    continues: 19
+    investors:
+      - {name: William Strong, firm: Equinox Partners}
+    companies:
+      - {name: HDFC}
+      - {name: Bunas Finance}
+    topics: [international, financials, deep-value]
+    summary: "William started at Ruane Cunniff and now buys high-quality assets at distressed prices in emerging economies, including HDFC and Bunas Finance."
+    summary_status: approved
+
+  - type: interview
+    page: 1
+    continues: 26
+    investors:
+      - {name: Sam Zell, firm: Equity Group Investments}
+    companies: []
+    topics: [real-estate, macro]
+    summary: "Sam on investing through different business cycles and his knack for spotting supply-and-demand imbalances that others had missed."
+    summary_status: approved
+
+  - type: pitches
+    page: 44
+    title: Student Stock Pitches
+
+  - type: pitch
+    page: 44
+    company: BJ's Restaurants
+    direction: short
+    students: [Michael Yablon]
+    summary: "A casual-dining chain at 47 times earnings, shorted with near-term catalysts."
+    summary_status: approved
+
+  - type: pitch
+    page: 46
+    company: Chicago Bridge & Iron
+    direction: long
+    students: [Noah Snyder]
+    summary: "New awards had surged to about $7 billion in 2011, a backlog the market hadn't priced in."
+    summary_status: approved
+
+  - type: pitch
+    page: 48
+    company: Hewlett-Packard
+    direction: long
+    students: [Michael Zapata]
+    context: "2012 Moon Lee Prize, finalist"
+    summary: "A cash-generating market leader punished for its announcements and CEO changes. Michael thought the selloff went too far."
+    summary_status: approved
+
+  - type: pitch
+    page: 50
+    company: Hankook Tire
+    direction: long
+    students: [Young Ju Ko, Jane Wu, Sachee Trivedi, Jing Wu]
+    context: "Women in Investing Conference, finalists"
+    summary: "The market underestimated how much Hankook could raise prices as its brand improved."
+    summary_status: approved
+
+  - {type: other, page: 2, title: "Welcome letter"}

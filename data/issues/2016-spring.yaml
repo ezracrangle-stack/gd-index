@@ -1,0 +1,121 @@
+id: 2016-spring
+label: Spring 2016
+date: 2016-05
+number: 27
+pdf: https://business.columbia.edu/sites/default/files-efs/imce-uploads/Graham%20%20Doddsville_Issue%2027.pdf
+pages: 54
+status: published
+
+# In this issue every interview opens on the cover (p. 1) and continues
+# further in. "page" is where it starts; "continues" is where the cover
+# text jumps to.
+
+items:
+  - type: interview
+    page: 1
+    continues: 4
+    investors:
+      - {name: John Phelan, firm: MSD Capital}
+    companies:
+      - {name: IndyMac / OneWest}
+      - {name: CIT Group}
+      - {name: Rite Aid}
+    topics: [real-estate, financials, private-equity, career-advice]
+    summary: "From ESL and Sam Zell's real estate funds to co-running MSD. John tells the IndyMac/OneWest story and what students should do to get into the business."
+    summary_status: approved
+
+  - type: interview
+    page: 1
+    continues: 14
+    investors:
+      - {name: Alex Magaro, firm: Meritage Group}
+    companies:
+      - {name: TransDigm}
+    topics: [quality-compounders, private-equity, firm-building]
+    summary: "How Meritage got started, TransDigm as the business that looked worse than it was, and why beer distribution was worth giving up some liquidity."
+    summary_status: approved
+
+  - type: interview
+    page: 1
+    continues: 25
+    investors:
+      - {name: Adam Wyden, firm: ADW Capital}
+    companies:
+      - {name: IDT}
+      - {name: Straight Path}
+      - {name: IDW Media Holdings}
+      - {name: Imvescor Restaurant Group}
+      - {name: Fiat Chrysler}
+      - {name: Ferrari}
+    topics: [special-situations, international, small-caps]
+    summary: "A fund started in 2011 by a 2010 CBS grad. Adam covers IDT and Howard Jonas, Ferrari, and why he found Fiat even more interesting."
+    summary_status: approved
+
+  - type: interview
+    page: 1
+    continues: 33
+    investors:
+      - {name: Marc Cohodes, firm: Rocker Partners / Copper River (former)}
+    companies:
+      - {name: Nu Skin Enterprises}
+      - {name: Home Capital Group}
+      - {name: World Acceptance}
+      - {name: Signet Jewelers}
+      - {name: Tempur Sealy}
+      - {name: Valeant}
+      - {name: Tesla}
+    topics: [short-selling, accounting, financials]
+    summary: "A career short seller on Nu Skin, Canadian housing and Home Capital Group, and the warning signs he watches for, starting with managements that go after short sellers."
+    summary_status: approved
+
+  - {type: other, page: 2, title: "Welcome letter"}
+  - {type: other, page: 3, title: "CSIMA Conference and Pershing Square Challenge"}
+
+  - type: pitches
+    page: 44
+    title: Pershing Square Challenge Ideas
+
+  - type: pitch
+    page: 44
+    company: Alimentation Couche-Tard
+    direction: long
+    students: [Marc Grow, Melody Li, Joanna Vu, Thais Fernandes]
+    context: "9th Annual Pershing Square Challenge, 1st place"
+    summary: "A convenience-store consolidator with steady cash flow and fuel margins that don't track the oil price."
+    summary_status: approved
+
+  - type: pitch
+    page: 46
+    company: Charles Schwab
+    direction: long
+    students: [Daniel Rudyak, Chris Andreola, Brandon Cohen]
+    context: "9th Annual Pershing Square Challenge, 2nd place"
+    summary: "Schwab's float nearly quadrupled from 2008 to 2015 while operating income rose about 12%. The pitch is about that gap."
+    summary_status: approved
+
+  - type: pitch
+    page: 48
+    company: Advance Auto Parts
+    direction: long
+    students: [Jordan Barron, Adam Xiao, Nielsen Fields, Noah Scherz]
+    context: "9th Annual Pershing Square Challenge, finalist"
+    summary: "Operational fixes the team thinks can double EPS in 4 to 5 years."
+    summary_status: approved
+
+  - type: pitch
+    page: 50
+    company: Alcoa
+    direction: long
+    students: [Austin Kim, Coy Jen, Audun Nordtveit]
+    context: "9th Annual Pershing Square Challenge, finalist"
+    summary: "Margin upside in Arconic, the value-added unit, and a core business the team thinks the market reads as lower quality than it is."
+    summary_status: approved
+
+  - type: pitch
+    page: 52
+    company: Alliance Data Systems
+    direction: long
+    students: [Simon Bennaim, Deepak Prasad, Nick Turchetta, Adam Walder]
+    context: "9th Annual Pershing Square Challenge, finalist"
+    summary: "Private-label cards plus marketing and loyalty, pitched with roughly 3 to 1 upside to downside."
+    summary_status: approved

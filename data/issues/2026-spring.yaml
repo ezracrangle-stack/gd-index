@@ -1,0 +1,139 @@
+id: 2026-spring
+label: Spring 2026
+date: 2026-05
+number: 53
+pdf: https://business.columbia.edu/sites/default/files-efs/imce-uploads/Graham%20Doddsville%20Spring%202026%20Issue%20(Master)_05192026_vF2.pdf
+pages: 67
+status: published
+
+items:
+  - type: interview
+    page: 5
+    investors:
+      - {name: Alec Henry, firm: Eagle Capital Management}
+      - {name: Adrian Meli, firm: Eagle Capital Management}
+    companies:
+      - {name: Danaher}
+      - {name: SAP}
+    topics: [international, accounting, spin-offs, firm-building]
+    summary: "Eagle's two CIOs on finding ideas through capital flows, why they're picky about accounting, and how they underwrite a CEO change. Danaher after the spin-offs and SAP get the stock-specific time."
+    summary_status: approved
+
+  - type: interview
+    page: 18
+    investors:
+      - {name: Jeff O'Donohue, firm: Starfort Capital Management}
+    companies:
+      - {name: Cuckoo Holdings}
+      - {name: Tsubakimoto Kogyo}
+    topics: [international, asia, small-caps, firm-building]
+    summary: "A Los Angeles firm founded in 2015 that hunts for ideas in Japan and Korea. Jeff walks through Cuckoo and Tsubakimoto Kogyo and explains why he grades himself on doubling capital every 6 years."
+    summary_status: approved
+
+  - type: interview
+    page: 25
+    investors:
+      - {name: Tony DeSpirito, firm: BlackRock (retired)}
+    companies:
+      - {name: Fortune Brands Innovations}
+      - {name: Becton Dickinson}
+    topics: [quality-compounders, housing, healthcare, career-advice]
+    summary: "Almost 20 years at Pzena, then global CIO of fundamental equities at BlackRock. Tony on mixing quality, value and dividend growth, and why he likes Fortune Brands and Becton Dickinson."
+    summary_status: approved
+
+  - type: pitches
+    page: 36
+    title: CBS Students' Investment Ideas
+
+  - type: pitch
+    page: 36
+    company: DoorDash
+    direction: long
+    students: [Zekun (ZK) Feng, Aaron Samuels, Elliot Tompras]
+    context: "19th Annual Pershing Square Challenge, 1st place"
+    summary: "More durable growth in US restaurants, better economics in new verticals and international, and margins the team thinks will widen as DoorDash scales."
+    summary_status: approved
+
+  - type: pitch
+    page: 38
+    company: Baker Hughes
+    direction: long
+    students: [Cameron Degan, Greer Lafontant, Karl Eshwer]
+    context: "19th Annual Pershing Square Challenge, 2nd place"
+    summary: "The market still sees a cyclical oilfield supplier. The team sees an energy-infrastructure business whose installed equipment feeds years of service revenue."
+    summary_status: approved
+
+  - type: pitch
+    page: 40
+    company: Celsius Holdings
+    direction: long
+    students: [Jyas Totlani, Hide Okada]
+    context: "19th Annual Pershing Square Challenge, 3rd place"
+    summary: "The market prices Alani fad risk, Costco private label and the integration as permanent problems. The team thinks all three are temporary."
+    summary_status: approved
+    check: "Only 2 students found on the page. Confirm there isn't a third."
+
+  - type: pitch
+    page: 41
+    company: MSA Safety
+    direction: long
+    students: [EJ Karobath, Craig Larkin, Bob McGrane]
+    context: "19th Annual Pershing Square Challenge, finalist"
+    summary: "A century-old maker of gear for workers in hazardous jobs, pitched as a quality pick-and-shovel compounder."
+    summary_status: approved
+
+  - type: pitch
+    page: 42
+    company: Amadeus IT Group
+    direction: long
+    students: [Kabir Bajaj, Eithel Mc Gowen, Fran Tumajan]
+    context: "19th Annual Pershing Square Challenge, finalist"
+    summary: "Room to grow in airline IT, margins going back to normal, and an AI threat the team thinks the market has overpriced."
+    summary_status: approved
+
+  - type: pitch
+    page: 43
+    company: Uber Technologies
+    direction: long
+    students: [Dennis Zhuo]
+    context: "4th Annual Kawaja Growth Challenge, finalist"
+    summary: "Dennis thinks the selloff on robotaxi fears overshoots, and that Uber ends up as a partner to autonomous fleets."
+    summary_status: approved
+
+  - type: interview
+    page: 45
+    investors:
+      - {name: Edgar Wachenheim III, firm: Greenhaven Associates}
+    companies:
+      - {name: NVR}
+      - {name: Toll Brothers}
+      - {name: Lennar}
+      - {name: D.R. Horton}
+      - {name: PulteGroup}
+      - {name: NOV}
+    topics: [housing, portfolio-construction, career-advice]
+    summary: "Ed Wachenheim on homebuilders that moved to a land-light model, NVR as the template, and why Greenhaven sits on roughly 48% cash."
+    summary_status: approved
+
+  - type: interview
+    page: 55
+    investors:
+      - {name: Kevin Salimian, firm: Voxel Capital Partners}
+    companies: []
+    topics: [ai, technology, portfolio-construction, firm-building]
+    summary: "A concentrated long-only fund launching in 2026 with AI at the center. Kevin covers position sizing, on-the-ground research and what AI means for software companies."
+    summary_status: approved
+
+  - type: interview
+    page: 63
+    investors:
+      - {name: Tom Saberhagen, firm: Tenzing MEMO}
+      - {name: Nick Kapur, firm: Tenzing MEMO}
+    companies: []
+    topics: [ai, career-advice]
+    summary: "The founders of Tenzing MEMO, an AI research tool for analysts, on how the product works and what it could change for the sell-side."
+    summary_status: approved
+
+  - {type: other, page: 2, title: "Welcome letter"}
+  - {type: other, page: 3, title: "Heilbrunn Center and CSIMA events"}
+  - {type: other, page: 66, title: "Value Investing with Legends podcast"}

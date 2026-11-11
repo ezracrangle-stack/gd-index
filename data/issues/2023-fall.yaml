@@ -1,0 +1,94 @@
+id: 2023-fall
+label: Fall 2023
+date: 2023-12
+number: 48
+pdf: https://business.columbia.edu/sites/default/files-efs/imce-uploads/Graham%20Doddsville%20Fall%202023%20Issue%20FINAL.pdf
+pages: 72
+status: published
+
+items:
+  - type: interview
+    page: 5
+    investors:
+      - {name: Michael Marone, firm: Crescent Rock Capital}
+      - {name: John Rolfe, firm: Crescent Rock Capital}
+    companies:
+      - {name: KBR}
+      - {name: Gerresheimer}
+      - {name: Melrose Industries}
+      - {name: Sanken Electric}
+      - {name: Allegro MicroSystems}
+    topics: [international, special-situations, asia]
+    summary: "A long/short firm whose ideas run from the US to Germany, the UK and Japan. Michael and John walk through KBR, Gerresheimer, Melrose, and owning Allegro through Sanken."
+    summary_status: approved
+
+  - type: interview
+    page: 21
+    investors:
+      - {name: Ric Dillon, firm: VELA Investment Management}
+      - {name: Jenny Hubbard, firm: VELA Investment Management}
+      - {name: Brian Hilderbrand, firm: VELA Investment Management}
+    companies:
+      - {name: BWX Technologies}
+      - {name: Casey's General Stores}
+      - {name: Kirby}
+    topics: [quality-compounders, firm-building, career-advice]
+    summary: "The VELA team on their research process, what they look for in analysts, and three holdings: BWXT, Casey's and Kirby."
+    summary_status: approved
+
+  - type: pitches
+    page: 34
+    title: CBS Students' Investment Ideas
+
+  - type: pitch
+    page: 34
+    company: Lithia Motors
+    direction: long
+    students: [Thomas Schlabach, Nick Stern, Sam Hook]
+    context: "2023 Pershing Square Challenge, 1st place"
+    summary: "A single Oregon dealership from 1946 that became the largest auto dealer group in the US. The team saw the stock doubling in 4 years."
+    summary_status: approved
+
+  - type: pitch
+    page: 36
+    company: PayPal
+    direction: long
+    students: [Jennifer Ma, Takuro Fujii, Mario Stefanidis]
+    context: "12th Annual Darden @ Virginia Investing Challenge, 1st place"
+    summary: "PayPal with a 2028 target of $110, about double the price at the time. Braintree's scale is a big part of the case."
+    summary_status: approved
+
+  - type: pitch
+    page: 38
+    company: Vertiv
+    direction: long
+    students: [April Jiachen Li, Julie Zhou, Bhakti Thacker]
+    context: "2023 CSIMA Stock Pitch Challenge, 1st place"
+    summary: "Power and cooling gear for data centers. The team expects Vertiv to grow at 1.5 times its market as the sector consolidates."
+    summary_status: approved
+
+  - type: interview
+    page: 40
+    investors:
+      - {name: Yaron Naymark, firm: 1 Main Capital}
+    companies:
+      - {name: dentalcorp}
+      - {name: IWG}
+    topics: [special-situations, portfolio-construction, international]
+    summary: "Yaron started 1 Main Capital in 2018. He covers sizing, why he sells purely on valuation, and two ideas: dentalcorp and IWG's move to a 15% management-fee model."
+    summary_status: approved
+
+  - type: interview
+    page: 53
+    investors:
+      - {name: Kevin Fogarty, firm: Value Creators}
+      - {name: Kevin Nichols, firm: Value Creators}
+    companies:
+      - {name: AMETEK}
+      - {name: Copart}
+    topics: [management, quality-compounders]
+    summary: "The two Kevins behind Value Creators on judging capital allocation, acquisitions included, and two holdings: AMETEK and Copart."
+    summary_status: approved
+
+  - {type: other, page: 2, title: "Welcome letter"}
+  - {type: other, page: 3, title: "Heilbrunn Center and CSIMA events"}

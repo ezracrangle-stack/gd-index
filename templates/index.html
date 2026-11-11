@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block title %}The G&D Index{% endblock %}
+{% block main %}
+<section class="lede">
+  <p class="dek">Graham &amp; Doddsville is the student investing newsletter of Columbia Business School. Since 2006 it has run long interviews with investors and the stock pitches students bring to competitions. This index lets you search all of it and jump to the right page of the original PDF.</p>
+  <p class="free">An unofficial index of Graham &amp; Doddsville. Not affiliated with Columbia Business School or the Heilbrunn Center.</p>
+  <p class="small">{{ counts.issues }} issue{{ "s" if counts.issues != 1 }}, {{ counts.interviews }} interviews and {{ counts.pitches }} student pitches indexed so far. The index checks Columbia's archive every week.</p>
+</section>
+
+<section>
+  <h2 class="rule-head">Issues</h2>
+  <ol class="letters issues">
+  {% for iss in issues %}
+    <li>
+      <span class="period"><a href="{{ root }}i/{{ iss.id }}.html">{{ iss.label }}</a>{% if iss.draft %} <span class="draft-tag">Draft</span>{% endif %}</span>
+      <span class="who"><a href="{{ root }}i/{{ iss.id }}.html">{% for it in iss.interviews %}{{ it.people|map(attribute="name")|join(" & ") }}{{ ", " if not loop.last }}{% endfor %}</a>
+        <span class="firm">{{ iss.interviews|length }} interview{{ "s" if iss.interviews|length != 1 }}{% if iss.pitches %}, {{ iss.pitches|length }} student pitch{{ "es" if iss.pitches|length != 1 }}{% endif %}</span></span>
+      <a class="read" href="{{ iss.pdf }}" target="_blank" rel="noopener">PDF<span class="sr"> of the {{ iss.label }} issue</span> &#8599;</a>
+    </li>
+  {% endfor %}
+  </ol>
+</section>
+{% endblock %}

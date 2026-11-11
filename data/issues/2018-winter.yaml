@@ -1,0 +1,87 @@
+id: 2018-winter
+label: Winter 2018
+date: 2018-01
+number: 32
+pdf: https://business.columbia.edu/sites/default/files-efs/imce-uploads/Graham%20%26%20Doddsville_Issue%2032_vFF%2025-Jan%20HARD.pdf
+pages: 44
+status: published
+
+items:
+  - {type: other, page: 3, title: "27th Annual Graham & Dodd Breakfast"}
+
+  - type: interview
+    page: 1
+    continues: 4
+    investors:
+      - {name: Leon Cooperman, firm: Omega Advisors}
+    companies: []
+    topics: [career-advice, macro]
+    summary: "Lee Cooperman on his fight with the SEC, passive investing, his relationships with other managers, and what matters to him outside the markets."
+    summary_status: approved
+
+  - type: interview
+    page: 1
+    continues: 12
+    investors:
+      - {name: David Poppe, firm: "Ruane, Cunniff & Goldfarb"}
+      - {name: John Harris, firm: "Ruane, Cunniff & Goldfarb"}
+    companies:
+      - {name: Alphabet}
+      - {name: Credit Acceptance}
+    topics: [quality-compounders, portfolio-construction]
+    summary: "The heirs to Bill Ruane's firm on how they grew as investors, running a concentrated portfolio, and two favorite ideas: Google and Credit Acceptance."
+    summary_status: approved
+
+  - type: pitches
+    page: 21
+    title: Student Pitches
+
+  - type: pitch
+    page: 21
+    company: Staples
+    security: "8.5% Senior Unsecured Notes due 2025"
+    direction: long
+    students: [A.J. Denham, Kevin Brenes, Gili Bergman]
+    context: "2017 NYU Credit Pitch Competition, 1st place"
+    summary: "A credit pitch: the new bonds fell from 96 to 85 after Amazon Business Prime was announced. The team thought the market overreacted."
+    summary_status: approved
+
+  - type: pitch
+    page: 23
+    company: FleetCor Technologies
+    direction: long
+    students: [Aditi Bhatia, Lisa Chen, Victoria Gu, Aleksandrina Ivanova]
+    context: "2017 Women in Investing Conference, 1st place"
+    summary: "A payments business with about 90% customer retention, pitched with 80% upside over two years."
+    summary_status: approved
+
+  - type: pitch
+    page: 25
+    company: First Data
+    direction: long
+    students: [Ishaan Bhatia, Ryan Darrohn, Victoria Gu]
+    context: "CSIMA Stock Pitch Challenge, finalist"
+    summary: "A winner in an oligopoly with the best margins and cash flow in its market, pitched with a target more than double the price."
+    summary_status: approved
+
+  - type: interview
+    page: 1
+    continues: 27
+    investors:
+      - {name: C.T. Fitzpatrick, firm: Vulcan Value Partners}
+    companies: []
+    topics: [quality-compounders, firm-building]
+    summary: "C.T. moved from strict value investing to what he calls a sustainable margin of safety. He keeps an MVP list of great businesses and waits for the price."
+    summary_status: approved
+
+  - type: interview
+    page: 1
+    continues: 35
+    investors:
+      - {name: Seth Fischer, firm: Oasis Capital Management}
+    companies: []
+    topics: [activism, asia, international]
+    summary: "The Hong Kong-based founder of Oasis on global arbitrage, activism in Asia, why frauds in China differ from Western ones, and why this time is different for activists in Japan."
+    summary_status: approved
+
+  - {type: other, page: 2, title: "Welcome letter"}

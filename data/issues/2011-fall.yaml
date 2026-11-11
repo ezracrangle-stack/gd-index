@@ -1,0 +1,73 @@
+id: 2011-fall
+label: Fall 2011
+date: 2011-11
+number: 13
+pdf: https://business.columbia.edu/sites/default/files-efs/imce-uploads/Graham%20%20Doddsville%20-%20Issue%2013%20-%20Fall%202011%20-%20v2.pdf
+pages: 34
+status: published
+
+items:
+  - type: interview
+    page: 1
+    continues: 2
+    investors:
+      - {name: Leon Cooperman, firm: Omega Advisors}
+    companies:
+      - {name: Sallie Mae}
+      - {name: Transocean}
+      - {name: Boston Scientific}
+    topics: [portfolio-construction, career-advice]
+    summary: "Lee looks back on his career from Goldman to Omega, explains how the firm builds its portfolio, and lays out top ideas including Sallie Mae, Transocean and Boston Scientific."
+    summary_status: approved
+
+  - type: interview
+    page: 1
+    continues: 12
+    investors:
+      - {name: Mario Gabelli, firm: GAMCO Investors}
+    companies:
+      - {name: Beam}
+      - {name: National Fuel Gas}
+      - {name: Madison Square Garden}
+    topics: [special-situations, deep-value]
+    summary: "'Think like an owner.' Mario on his approach to security analysis and his interest in Beam, National Fuel Gas and Madison Square Garden."
+    summary_status: approved
+
+  - type: interview
+    page: 1
+    continues: 20
+    investors:
+      - {name: Marty Whitman, firm: Third Avenue Management}
+    companies: []
+    topics: [distressed, deep-value]
+    summary: "Third Avenue's founder and a CBS adjunct in distress investing on where he saw opportunity, how he values companies, and some of the firm's best investments."
+    summary_status: approved
+
+  - type: interview
+    page: 25
+    investors:
+      - {name: Eli Rabinowich}
+    companies: []
+    topics: [career-advice]
+    summary: "An alumni profile: how Eli chose Columbia for its value investing tradition and what came after."
+    summary_status: approved
+
+  - type: pitch
+    page: 29
+    company: Great Lakes Dredge & Dock
+    direction: long
+    students: [Philip O'Brien]
+    context: "2011 Sonkin Prize, winner"
+    summary: "An 80% margin of safety on what it would cost to rebuild the assets, plus high barriers to entry and a dominant position."
+    summary_status: approved
+
+  - type: pitch
+    page: 31
+    company: Madison Square Garden
+    direction: long
+    students: [Michael Yablon]
+    context: "2011 Sonkin Prize, winner"
+    summary: "Better core businesses and an underrated payoff from renovating the Garden."
+    summary_status: approved
+
+  - {type: other, page: 2, title: "Welcome letter"}

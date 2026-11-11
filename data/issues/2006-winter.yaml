@@ -1,0 +1,38 @@
+id: 2006-winter
+label: Winter 2006
+date: 2006-12
+number: 1
+pdf: https://business.columbia.edu/sites/default/files-efs/imce-uploads/Graham%20and%20Doddsville%20-%20Issue%201_December%202006.pdf
+pages: 22
+status: published
+
+items:
+  - type: interview
+    page: 1
+    continues: 2
+    investors:
+      - {name: Richard Pzena, firm: Pzena Investment Management}
+    companies: []
+    topics: [deep-value]
+    summary: "The first issue. Rich buys good businesses that fell on a problem and works out whether the problem is cyclical or permanent. He passes on cases like Kodak and newspapers."
+    summary_status: approved
+
+  - type: pitch
+    page: 12
+    company: International Coal Group
+    direction: long
+    students: [Jonathon Luft]
+    summary: "'Rookie slump masks homerun potential': at $4.20 the stock sat well below the value of its reserves, which Jonathon put at $6.50 a share or more."
+    summary_status: approved
+
+  - type: pitch
+    page: 14
+    company: Strattec Security
+    direction: long
+    students: [Luciano Ferreira]
+    summary: "A great business in an out-of-favor industry, held down by worries about the big three US automakers."
+    summary_status: approved
+
+  - {type: other, page: 17, title: "10th Annual Columbia Investment Management Conference"}
+  - {type: other, page: 18, title: "Selected 13F filings: Cantillon and Lone Pine"}
+  - {type: other, page: 2, title: "Welcome letter"}

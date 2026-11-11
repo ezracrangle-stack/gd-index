@@ -1,0 +1,96 @@
+id: 2017-winter
+label: Winter 2017
+date: 2017-01
+number: 29
+pdf: https://business.columbia.edu/sites/default/files-efs/imce-uploads/Graham%20%20Doddsville_Issue%2029_small_0.pdf
+pages: 61
+status: published
+
+items:
+  - {type: other, page: 3, title: "Graham & Dodd Breakfast"}
+
+  - type: interview
+    page: 1
+    continues: 5
+    investors:
+      - {name: Michael Blitzer, firm: Kingstown Capital Management}
+      - {name: Guy Shanon, firm: Kingstown Capital Management}
+    companies: []
+    topics: [special-situations, international]
+    summary: "Kingstown returns six years after its 2010 interview. Michael and Guy explain why a longer horizon helps in special situations, including overlooked international privatizations."
+    summary_status: approved
+
+  - type: interview
+    page: 1
+    continues: 15
+    investors:
+      - {name: Rupal Bhansali, firm: Ariel Investments}
+    companies: []
+    topics: [international, macro]
+    summary: "Ariel's CIO of international and global equities on applying Buffett's lessons abroad and why Soros's idea of reflexivity helps explain financial crises."
+    summary_status: approved
+
+  - type: interview
+    page: 1
+    continues: 23
+    investors:
+      - {name: Simeon Wallis, firm: ValorBridge Partners}
+    companies:
+      - {name: ApolloMD}
+    topics: [private-equity, firm-building]
+    summary: "ValorBridge redeploys cash from its main operating company, ApolloMD, into public and private investments. Simeon explains how that flexibility works."
+    summary_status: approved
+
+  - type: pitches
+    page: 38
+    title: Student Ideas
+
+  - type: pitch
+    page: 38
+    company: Foot Locker
+    direction: short
+    students: [Zachary Rieger]
+    context: "2017 Heilbrunn Center Stock Challenge, 1st place"
+    summary: "The largest athletic footwear retailer in North America, shorted with more than 20% downside."
+    summary_status: approved
+
+  - type: pitch
+    page: 40
+    company: Axalta Coating Systems
+    direction: long
+    students: [Alexander Levy]
+    context: "2017 Heilbrunn Center Stock Challenge, 2nd place"
+    summary: "The market sees a cyclical chemical company tied to autos. Alexander sees a coatings business with lasting advantages and strong free cash flow."
+    summary_status: approved
+
+  - type: pitch
+    page: 42
+    company: Cardtronics
+    direction: short
+    students: [Abheek Bhattacharya, Harsh Jhaveri, Ryan Kelly]
+    context: "2016 Darden @ Virginia Investing Challenge, finalist"
+    summary: "A short on the world's largest non-bank ATM operator, with more than 225,000 machines."
+    summary_status: approved
+
+  - type: interview
+    page: 1
+    continues: 44
+    investors:
+      - {name: Jared Friedberg, firm: Mercator}
+    companies: []
+    topics: [special-situations, quality-compounders]
+    summary: "How a family office uses permanent capital for special situations and long-term compounders, and invests across the capital structure to find value hidden by complexity."
+    summary_status: approved
+
+  - type: interview
+    page: 1
+    continues: 51
+    investors:
+      - {name: Charles Studness, firm: Studness Capital Management}
+      - {name: Roy Studness, firm: Studness Capital Management}
+    companies: []
+    topics: [financials]
+    summary: "A family team that invests in two industries that tend to move in opposite directions: utilities and banks."
+    summary_status: approved
+
+  - {type: other, page: 2, title: "Welcome letter"}

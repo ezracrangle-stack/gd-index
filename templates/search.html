@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}Search{% endblock %}
+{% block description %}Search Graham & Doddsville by investor, firm, company, topic or student name.{% endblock %}
+{% block main %}
+<h1 class="page-title">Search</h1>
+<p class="dek">Look up an investor, a firm, a company, a topic or a student.</p>
+<form class="filter" role="search" onsubmit="return false"><label class="sr" for="q">Search the index</label>
+  <input id="q" type="search" placeholder="Try Wachenheim, Eagle, Danaher or short selling" autocomplete="off" autofocus></form>
+<div id="results" data-root="{{ root }}" data-index="{{ root }}search.json"></div>
+{% endblock %}
+{% block scripts %}<script src="{{ root }}static/search.js"></script>{% endblock %}

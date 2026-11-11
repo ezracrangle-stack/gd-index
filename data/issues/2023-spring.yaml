@@ -1,0 +1,69 @@
+id: 2023-spring
+label: Spring 2023
+date: 2023-04
+number: 47
+pdf: https://business.columbia.edu/sites/default/files-efs/imce-uploads/Graham%20Doddsville%20Spring%202023%20Issue%20vFINAL%20(2023.04.27).pdf
+pages: 52
+status: published
+
+items:
+  - type: interview
+    page: 5
+    investors:
+      - {name: Daniel Bakalarz, firm: Unison Asset Management}
+      - {name: Alex Furmanski, firm: Unison Asset Management}
+    companies:
+      - {name: Elevance Health}
+    topics: [quality-compounders, healthcare, management]
+    summary: "Unison holds 25 to 30 businesses. Daniel and Alex explain how they judge management, why they went to the payer end of healthcare, and their case for Elevance Health."
+    summary_status: approved
+
+  - type: pitches
+    page: 18
+    title: CBS Students' Investment Ideas
+
+  - type: pitch
+    page: 18
+    company: Simpson Manufacturing
+    direction: long
+    students: [Bryden Nugent]
+    context: "2023 Artisan International Stock Pick Challenge, winner"
+    summary: "Simpson has 75% of the US wood-connector market. Bryden argues growth and gross margins will both beat consensus."
+    summary_status: approved
+
+  - type: pitch
+    page: 20
+    company: Trex
+    direction: long
+    students: [Jose Alvarez, Tanay Dixit, Benjamin Hui]
+    context: "2022 Neuberger Berman ESG Investing Challenge, 1st place"
+    summary: "The composite decking maker, pitched with a 3-year target almost 3 times the price at the time."
+    summary_status: approved
+
+  - type: interview
+    page: 22
+    investors:
+      - {name: Chuck Bath, firm: Diamond Hill Capital Management}
+      - {name: Austin Hawley, firm: Diamond Hill Capital Management}
+      - {name: Varun Gupta, firm: Diamond Hill Capital Management}
+    companies:
+      - {name: Martin Marietta Materials}
+      - {name: SS&C Technologies}
+    topics: [quality-compounders, career-advice]
+    summary: "Three Diamond Hill investors on passive investing, hiring analysts, and two holdings: Martin Marietta and SS&C. Chuck first bought rival Vulcan in 1985."
+    summary_status: approved
+
+  - type: interview
+    page: 36
+    investors:
+      - {name: Matthew Sweeney, firm: Laughing Water Capital}
+    companies:
+      - {name: Avid Bioservices}
+      - {name: Thryv}
+      - {name: Hilton Grand Vacations}
+    topics: [small-caps, special-situations, firm-building]
+    summary: "Matt started Laughing Water in 2016 to run a concentrated small-cap book. He explains how he answers 'why does this opportunity exist?' and walks through Avid Bioservices, Thryv and Hilton Grand Vacations."
+    summary_status: approved
+
+  - {type: other, page: 2, title: "Welcome letter"}
+  - {type: other, page: 3, title: "Heilbrunn Center and CSIMA events"}

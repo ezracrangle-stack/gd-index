@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% from "_items.html" import interview %}
+{% block title %}{{ tp.label }}: Graham & Doddsville interviews{% endblock %}
+{% block description %}{{ tp.hits|length }} Graham & Doddsville interviews about {{ tp.label|lower }}, linked to the page in each issue.{% endblock %}
+{% block main %}
+<p class="crumb"><a href="{{ root }}topics.html">&larr; All topics</a></p>
+<h1 class="page-title">{{ tp.label }}</h1>
+<p class="dek">{{ tp.hits|length }} interview{{ "s" if tp.hits|length != 1 }}, newest first.</p>
+<ul class="hits">{% for it in tp.hits %}{{ interview(it, root, show_issue=True) }}{% endfor %}</ul>
+{% endblock %}

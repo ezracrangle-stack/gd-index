@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+{% if site.ga_id %}<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga_id }}"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','{{ site.ga_id }}');</script>
+{% endif %}
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<script>(function(){var t;try{t=localStorage.getItem('theme')}catch(e){}if(t!=='dark'&&t!=='light'){t=window.matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'}document.documentElement.setAttribute('data-theme',t)})();</script>
+<title>{% block title %}The G&D Index{% endblock %} · Ezra's Notes</title>
+<meta name="description" content="{% block description %}A searchable, unofficial index of Graham & Doddsville, Columbia Business School's student investing newsletter. Every interview and student pitch, linked to its page in the original PDF.{% endblock %}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ root }}static/style.css?v={{ asset_v }}">
+<link rel="alternate" type="application/rss+xml" title="The G&D Index · Ezra's Notes" href="{{ root }}feed.xml">
+{% set page_url = site.site_url ~ "/" ~ ("" if page == "index.html" else page) %}
+<meta property="og:title" content="{{ self.title() }} · Ezra's Notes">
+<meta property="og:description" content="{{ self.description() }}">
+<meta property="og:url" content="{{ page_url }}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="The G&D Index · Ezra's Notes">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="{{ root }}static/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="{{ root }}static/apple-touch-icon.png">
+<link rel="canonical" href="{{ page_url }}">
+{% if preview %}<meta name="robots" content="noindex">{% endif %}
+</head>
+<body>
+{% if preview %}<p class="preview-bar">Preview. Drafts are shown and marked; they stay hidden on the live site.</p>{% endif %}
+<header class="masthead">
+  <div class="topline">
+    <span>Ezra's Notes</span>
+    <span class="topright">
+      <span class="checked">{% if updated %}Checked {{ updated }}{% endif %}</span>
+      <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Switch between light and dark mode">Dark</button>
+    </span>
+  </div>
+  <a class="nameplate" href="{{ root }}index.html">The G&amp;D Index</a>
+  <p class="byline">By <a href="{{ site.linkedin_url }}">Ezra Crangle</a></p>
+  {% set sect = page.split('/')[0] %}
+  <nav>
+    <a href="{{ root }}index.html"{% if page == 'index.html' or sect == 'i' %} aria-current="page"{% endif %}>Issues</a>
+    <a href="{{ root }}investors.html"{% if page == 'investors.html' or sect == 'p' %} aria-current="page"{% endif %}>Investors</a>
+    <a href="{{ root }}companies.html"{% if page == 'companies.html' or sect == 'c' %} aria-current="page"{% endif %}>Companies</a>
+    <a href="{{ root }}pitches.html"{% if page == 'pitches.html' %} aria-current="page"{% endif %}>Pitches</a>
+    <a href="{{ root }}topics.html"{% if page == 'topics.html' or sect == 't' %} aria-current="page"{% endif %}>Topics</a>
+    <a href="{{ root }}search.html"{% if page == 'search.html' %} aria-current="page"{% endif %}>Search</a>
+    <a href="{{ root }}about.html"{% if page == 'about.html' %} aria-current="page"{% endif %}>About</a>
+  </nav>
+</header>
+
+<main>
+{% block main %}{% endblock %}
+</main>
+
+<footer>
+  <p class="unofficial">An unofficial index of Graham &amp; Doddsville. Not affiliated with Columbia Business School or the Heilbrunn Center.</p>
+  <p class="footer-links">
+    <a href="{{ site.newsletter_url }}">Ezra's Notes</a>
+    <a href="{{ site.letters_url }}">Investor Letters</a>
+    <a href="{{ root }}feed.xml">RSS</a>
+    <a href="{{ root }}about.html">About</a>
+  </p>
+  <p class="rights">Graham &amp; Doddsville belongs to Columbia Business School and its student editors. Every link opens the PDF on Columbia's website. Nothing here is investment advice.</p>
+</footer>
+<script>document.querySelectorAll('a.mail').forEach(function(a){var e=a.dataset.u+'@'+a.dataset.d;a.href='mailto:'+e;a.textContent=e;});</script>
+<script>(function(){var b=document.getElementById('theme-toggle'),r=document.documentElement;function label(){b.textContent=r.getAttribute('data-theme')==='dark'?'Light':'Dark'}label();b.addEventListener('click',function(){var t=r.getAttribute('data-theme')==='dark'?'light':'dark';r.setAttribute('data-theme',t);try{localStorage.setItem('theme',t)}catch(e){}label()})})();</script>
+{% block scripts %}{% endblock %}
+</body>
+</html>

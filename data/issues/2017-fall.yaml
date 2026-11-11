@@ -1,0 +1,55 @@
+id: 2017-fall
+label: Fall 2017
+date: 2017-11
+number: 31
+pdf: https://business.columbia.edu/sites/default/files-efs/imce-uploads/Graham%20%26%20Doddsville_Issue%2031_vF.pdf
+pages: 37
+status: published
+
+items:
+  - {type: other, page: 3, title: "From Graham to Buffett and Beyond Omaha dinner"}
+  - {type: other, page: 4, title: "Value Investing reception"}
+
+  - type: interview
+    page: 1
+    continues: 6
+    investors:
+      - {name: Howard Marks, firm: Oaktree Capital Management}
+    companies: []
+    topics: [macro, international]
+    summary: "Howard on the rise of passive and quant strategies and what happens to price discovery and second-level thinking if they keep growing. He also talks about standing apart from the herd and investing in emerging markets."
+    summary_status: approved
+
+  - type: pitch
+    page: 13
+    company: Spirit AeroSystems
+    direction: long
+    students: [Madina Baikadamova, Sowan Cha, Jean Cui, Claudine Fernandez]
+    context: "MBA Women in Investing Conference"
+    summary: "Favorable industry dynamics and a reliable backlog, pitched with 31% upside."
+    summary_status: approved
+
+  - type: interview
+    page: 1
+    continues: 15
+    investors:
+      - {name: Paul Sonkin, firm: GAMCO Investors}
+      - {name: Paul Johnson, firm: Nicusa Investment Advisors}
+    companies: []
+    topics: [career-advice]
+    summary: "The authors of Pitch the Perfect Investment on why pitching sits at the center of the investment process and the four questions every pitch has to answer."
+    summary_status: approved
+
+  - type: interview
+    page: 1
+    continues: 27
+    investors:
+      - {name: Jeremy Weisstub, firm: Aryeh Capital}
+      - {name: Damian Creber, firm: Aryeh Capital}
+    companies:
+      - {name: ServiceMaster}
+    topics: [special-situations, firm-building]
+    summary: "The two founders of Aryeh in Toronto on investing through cycles, deciding when to dig deeper or move on, and why they dug deep into ServiceMaster."
+    summary_status: approved
+
+  - {type: other, page: 2, title: "Welcome letter"}

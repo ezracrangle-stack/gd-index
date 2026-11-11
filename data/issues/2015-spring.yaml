@@ -1,0 +1,126 @@
+id: 2015-spring
+label: Spring 2015
+date: 2015-05
+number: 24
+pdf: https://business.columbia.edu/sites/default/files-efs/imce-uploads/Graham%20%26%20Doddsville_Issue%2024.pdf
+pages: 61
+status: published
+
+items:
+  - {type: other, page: 3, title: "2015 CSIMA Conference"}
+  - {type: other, page: 4, title: "Amici Capital Prize"}
+
+  - type: interview
+    page: 1
+    continues: 5
+    investors:
+      - {name: Matthew McLennan, firm: First Eagle Investment Management}
+      - {name: Kimball Brooker, firm: First Eagle Investment Management}
+    companies:
+      - {name: National Oilwell Varco}
+      - {name: Bank of New York Mellon}
+      - {name: Groupe Bruxelles Lambert}
+      - {name: Oracle}
+    topics: [international, deep-value, quality-compounders]
+    summary: "First Eagle's value approach and the influence of Jean-Marie Eveillard. Holdings they discuss include National Oilwell Varco, Bank of New York, Groupe Bruxelles Lambert and Oracle."
+    summary_status: approved
+
+  - type: interview
+    page: 1
+    continues: 16
+    investors:
+      - {name: Josh Resnick, firm: Jericho Capital}
+    companies:
+      - {name: Amazon}
+      - {name: MercadoLibre}
+      - {name: Telecom Italia}
+    topics: [technology, growth, international]
+    summary: "Josh on investing in technology, media and telecom, with Amazon, MercadoLibre and Telecom Italia as examples."
+    summary_status: approved
+
+  - type: interview
+    page: 1
+    continues: 25
+    investors:
+      - {name: Harvey Sawikin, firm: Firebird Management}
+    companies:
+      - {name: Gazprom Neft}
+      - {name: Bank of Georgia}
+    topics: [international, distressed]
+    summary: "Harvey went from M&A lawyer to frontier-markets investor in Russia and Eastern Europe. Ideas include Gazprom Neft and Bank of Georgia."
+    summary_status: approved
+
+  - type: interview
+    page: 1
+    continues: 33
+    investors:
+      - {name: Eric Yip, firm: Alder Hill Management}
+      - {name: Mark Unferth, firm: Alder Hill Management}
+    companies: []
+    topics: [credit, special-situations]
+    summary: "Investing across the capital structure and bringing a credit view to equities. Eric shares what he learned working for Carl Icahn and David Tepper."
+    summary_status: approved
+
+  - type: interview
+    page: 1
+    continues: 42
+    investors:
+      - {name: Rolf Heitmeyer, firm: Breithorn Capital Management}
+    companies:
+      - {name: American Axle}
+      - {name: Bed Bath & Beyond}
+      - {name: Hermès}
+    topics: [deep-value]
+    summary: "A CBS alumnus on deep value investing, with American Axle, Bed Bath & Beyond and Hermès as ideas."
+    summary_status: approved
+
+  - type: pitches
+    page: 51
+    title: Pershing Square Competition Ideas
+
+  - type: pitch
+    page: 51
+    company: Altice
+    direction: long
+    students: [Brendan Dawson, Patrick McDonald, Moiz Valji]
+    context: "2015 Pershing Square Challenge, 1st place"
+    summary: "A telecom holding company with nearly 80% upside in the base case, and more from consolidation, mobile repair and further deals."
+    summary_status: approved
+
+  - type: pitch
+    page: 53
+    company: Fiat Chrysler
+    direction: long
+    students: [Brandon Cohen, Christopher Crawford, Tyler Boone]
+    context: "2015 Pershing Square Challenge, 2nd place"
+    summary: "Fiat Chrysler earns nothing from Fiat or Chrysler. Ferrari, Jeep, Ram and Maserati alone are worth more than the market cap."
+    summary_status: approved
+
+  - type: pitch
+    page: 55
+    company: HCA Holdings
+    direction: long
+    students: [Damian Creber, Michael Herman]
+    context: "2015 Pershing Square Challenge, 3rd place"
+    summary: "Being first or second in each local market gives HCA bargaining power with insurers."
+    summary_status: approved
+
+  - type: pitch
+    page: 57
+    company: Genuine Parts
+    direction: long
+    students: [Lauren Harmon, Derek Johnson, Adam Kommel]
+    context: "2015 Pershing Square Challenge, finalist"
+    summary: "The team wanted the auto parts business to stand alone, through a Reverse Morris Trust deal for the office unit and a tax-free spin of industrials."
+    summary_status: approved
+
+  - type: pitch
+    page: 59
+    company: Precision Castparts
+    direction: long
+    students: [Aaron Purcell, Ben Hansen, Yinan Zhao]
+    context: "2015 Pershing Square Challenge, finalist"
+    summary: "The market leader in a business with real barriers to entry and a long record of strong free cash flow and capital allocation."
+    summary_status: approved
+
+  - {type: other, page: 2, title: "Welcome letter"}

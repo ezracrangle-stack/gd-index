@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% from "_items.html" import interview, pitch, pg %}
+{% block title %}Graham & Doddsville, {{ iss.label }}{% endblock %}
+{% block description %}What's in the {{ iss.label }} issue of Graham & Doddsville: {% for it in iss.interviews %}{{ it.people|map(attribute="name")|join(" & ") }}{{ ", " if not loop.last }}{% endfor %}, and {{ iss.pitches|length }} student pitches, with page numbers.{% endblock %}
+{% block main %}
+<p class="crumb"><a href="{{ root }}index.html">&larr; All issues</a></p>
+<h1 class="page-title">{{ iss.label }}{% if iss.draft %} <span class="draft-tag">Draft</span>{% endif %}</h1>
+<p class="firm-line big">Graham &amp; Doddsville{% if iss.number %}, issue {{ iss.number }}{% endif %} · {{ iss.pages }} pages</p>
+<p class="source plain">Page numbers are the ones your PDF viewer shows. Each one opens the PDF at that page; if your browser lands on page 1, scroll to the number.
+  <a href="{{ iss.pdf }}" target="_blank" rel="noopener">Open the full issue on Columbia's site<span class="arrow"> &#8599;</span></a></p>
+
+{% if iss.interviews %}
+<h2 class="rule-head">Interviews</h2>
+<ul class="hits">{% for it in iss.interviews %}{{ interview(it, root) }}{% endfor %}</ul>
+{% endif %}
+
+{% if iss.pitches %}
+<h2 class="rule-head">Student pitches</h2>
+<ul class="hits">{% for it in iss.pitches %}{{ pitch(it, root) }}{% endfor %}</ul>
+{% endif %}
+
+{% if iss.other %}
+<h2 class="rule-head">Also in this issue</h2>
+<ul class="hits">
+{% for it in iss.other %}
+  <li><span class="hit-when">{{ pg(it) }}</span><span class="hit-what">{{ it.title }}</span></li>
+{% endfor %}
+</ul>
+{% endif %}
+{% endblock %}

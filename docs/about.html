@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<script>(function(){var t;try{t=localStorage.getItem('theme')}catch(e){}if(t!=='dark'&&t!=='light'){t=window.matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'}document.documentElement.setAttribute('data-theme',t)})();</script>
+<title>About · Ezra's Notes</title>
+<meta name="description" content="A searchable, unofficial index of Graham & Doddsville, Columbia Business School's student investing newsletter. Every interview and student pitch, linked to its page in the original PDF.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="static/style.css?v=1794352160">
+<link rel="alternate" type="application/rss+xml" title="The G&D Index · Ezra's Notes" href="feed.xml">
+
+<meta property="og:title" content="About · Ezra's Notes">
+<meta property="og:description" content="A searchable, unofficial index of Graham & Doddsville, Columbia Business School's student investing newsletter. Every interview and student pitch, linked to its page in the original PDF.">
+<meta property="og:url" content="https://gd.ezrasnotes.com/about.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="The G&D Index · Ezra's Notes">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="static/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="static/apple-touch-icon.png">
+<link rel="canonical" href="https://gd.ezrasnotes.com/about.html">
+
+</head>
+<body>
+
+<header class="masthead">
+  <div class="topline">
+    <span>Ezra's Notes</span>
+    <span class="topright">
+      <span class="checked">Checked November 10, 2026</span>
+      <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Switch between light and dark mode">Dark</button>
+    </span>
+  </div>
+  <a class="nameplate" href="index.html">The G&amp;D Index</a>
+  <p class="byline">By <a href="https://www.linkedin.com/in/ezracrangle/">Ezra Crangle</a></p>
+  
+  <nav>
+    <a href="index.html">Issues</a>
+    <a href="investors.html">Investors</a>
+    <a href="companies.html">Companies</a>
+    <a href="pitches.html">Pitches</a>
+    <a href="topics.html">Topics</a>
+    <a href="search.html">Search</a>
+    <a href="about.html" aria-current="page">About</a>
+  </nav>
+</header>
+
+<main>
+
+<h1 class="page-title">About</h1>
+<div class="prose">
+  <p>I'm Ezra Crangle. I write <a href="https://ezrasnotes.com">Ezra's Notes</a>, a newsletter on value investing.</p>
+  <p>Graham &amp; Doddsville is the newsletter Columbia Business School students have published since 2006. Each issue has long interviews with investors and the stock pitches students bring to competitions like the Pershing Square Challenge. Columbia keeps every issue online as a PDF, in a plain list with no search. I kept wanting to find who had talked about a company, or every interview with one investor, without opening 50 files. So I built this index.</p>
+  <p>What you'll find here: who was interviewed, the companies they spend time on, each student pitch, and the page where each one starts. The one-line descriptions are mine. To read anything, you go to Columbia's PDF, which opens at the right page.</p>
+  <p>This is an unofficial index. I'm not affiliated with Columbia Business School or the Heilbrunn Center. The newsletter belongs to them and to the students who write it, and I don't host any of it here.</p>
+  <h2>Corrections</h2>
+  <p>A wrong page, a misspelled name, a pitch I missed? Write to <a class="mail" data-u="letters" data-d="ezrasnotes.com" href="https://ezrasnotes.com">letters [at] ezrasnotes [dot] com</a> and I'll fix it.</p>
+  <h2>New issues</h2>
+  <p>The index checks <a href="https://business.columbia.edu/heilbrunn/resources/graham-and-doddsville-newsletter">Columbia's archive</a> every week. When a new issue comes out, I read it and add it here. New issues show up in the <a href="feed.xml">RSS feed</a>.</p>
+</div>
+
+</main>
+
+<footer>
+  <p class="unofficial">An unofficial index of Graham &amp; Doddsville. Not affiliated with Columbia Business School or the Heilbrunn Center.</p>
+  <p class="footer-links">
+    <a href="https://ezrasnotes.com">Ezra's Notes</a>
+    <a href="https://letters.ezrasnotes.com">Investor Letters</a>
+    <a href="feed.xml">RSS</a>
+    <a href="about.html">About</a>
+  </p>
+  <p class="rights">Graham &amp; Doddsville belongs to Columbia Business School and its student editors. Every link opens the PDF on Columbia's website. Nothing here is investment advice.</p>
+</footer>
+<script>document.querySelectorAll('a.mail').forEach(function(a){var e=a.dataset.u+'@'+a.dataset.d;a.href='mailto:'+e;a.textContent=e;});</script>
+<script>(function(){var b=document.getElementById('theme-toggle'),r=document.documentElement;function label(){b.textContent=r.getAttribute('data-theme')==='dark'?'Light':'Dark'}label();b.addEventListener('click',function(){var t=r.getAttribute('data-theme')==='dark'?'light':'dark';r.setAttribute('data-theme',t);try{localStorage.setItem('theme',t)}catch(e){}label()})})();</script>
+
+</body>
+</html>

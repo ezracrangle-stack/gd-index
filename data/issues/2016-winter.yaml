@@ -1,0 +1,87 @@
+id: 2016-winter
+label: Winter 2016
+date: 2016-01
+number: 26
+pdf: https://business.columbia.edu/sites/default/files-efs/imce-uploads/Graham%20%20Doddsville_Issue_26.pdf
+pages: 53
+status: published
+
+items:
+  - {type: other, page: 3, title: "25th Annual Graham & Dodd Breakfast"}
+
+  - type: interview
+    page: 1
+    continues: 5
+    investors:
+      - {name: Craig Effron, firm: Scoggin Capital Management}
+    companies: []
+    topics: [special-situations, distressed, credit]
+    summary: "Craig moved from commodities to stocks. He talks about managing risk, creative ways to express a thesis with limited downside, event-driven case studies, and the distressed credit he saw in Puerto Rico and energy."
+    summary_status: approved
+
+  - type: interview
+    page: 1
+    continues: 19
+    investors:
+      - {name: Jeff Gramm, firm: Bandera Partners}
+    companies:
+      - {name: Famous Dave's}
+      - {name: Star Gas Partners}
+    topics: [activism, small-caps]
+    summary: "Jeff talks about his book Dear Chairman, on boardroom fights and the rise of shareholder activism, and two current ideas: Famous Dave's and Star Gas Partners."
+    summary_status: approved
+
+  - type: interview
+    page: 1
+    continues: 30
+    investors:
+      - {name: Shane Parrish, firm: Farnam Street}
+    companies: []
+    topics: [career-advice]
+    summary: "The founder of the Farnam Street blog on becoming a better learner the way Buffett and Munger did, and how that makes a better investor."
+    summary_status: approved
+
+  - type: interview
+    page: 1
+    continues: 39
+    investors:
+      - {name: Jon Salinas, firm: Plymouth Lane Capital}
+    companies:
+      - {name: DHX Media}
+      - {name: Sequential Brands Group}
+    topics: [small-caps, firm-building]
+    summary: "Jon on the mentors and approaches that led him to start Plymouth Lane, and two ideas: DHX Media and Sequential Brands."
+    summary_status: approved
+
+  - type: pitches
+    page: 47
+    title: Student Ideas
+
+  - type: pitch
+    page: 47
+    company: Dexcom
+    direction: short
+    students: [Marc Grow, Benjamin Ostrow, Evan Zehnal]
+    context: "Darden at Virginia Investing Competition, finalist"
+    summary: "A Wall Street favorite whose competitive dynamics the team says are misunderstood, as the market moves to integrated devices and longer-life sensors."
+    summary_status: approved
+
+  - type: pitch
+    page: 49
+    company: Quest Diagnostics
+    direction: short
+    students: [Nielsen Fields, Joanna Vu, Adam Xiao]
+    context: "2015 CSIMA Stock Pitch Challenge, 1st place"
+    summary: "A short on the independent lab-testing market, which the team saw under lasting pressure."
+    summary_status: approved
+
+  - type: pitch
+    page: 51
+    company: XPO Logistics
+    direction: long
+    students: [Justin Hong, Zachary Rieger, Cristóbal Silva]
+    context: "2015 Alpha Challenge at UNC Kenan-Flagler, 2nd place"
+    summary: "A bet on CEO Brad Jacobs and a performance-driven culture, with a target more than double the price."
+    summary_status: approved
+
+  - {type: other, page: 2, title: "Welcome letter"}

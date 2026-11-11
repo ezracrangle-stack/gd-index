@@ -1,0 +1,75 @@
+id: 2019-winter
+label: Winter 2019
+date: 2019-01
+number: 35
+pdf: https://business.columbia.edu/sites/default/files-efs/imce-uploads/Graham%20%26%20Doddsville_Issue%2035_vPrint.pdf
+pages: 33
+status: published
+
+items:
+  - {type: other, page: 3, title: "28th Annual Graham & Dodd Breakfast"}
+
+  - type: interview
+    page: 1
+    continues: 5
+    investors:
+      - {name: Glenn Hubbard, firm: Columbia Business School}
+      - {name: Joseph Stiglitz, firm: Columbia University}
+    companies: []
+    topics: [macro]
+    summary: "Two former chairmen of the Council of Economic Advisers, CBS dean Glenn Hubbard and Nobel laureate Joseph Stiglitz, on index funds, Jerome Powell's first stretch at the Fed, where the economy is fragile, and secular stagnation."
+    summary_status: approved
+
+  - type: pitches
+    page: 13
+    title: Student Investment Ideas
+
+  - type: pitch
+    page: 13
+    company: Nordstrom
+    direction: long
+    students: [Tonya Kostrinsky, Stephanie Moroney, Vivian Wang, Freda Zhuo]
+    context: "2018 Women in Investing Conference"
+    summary: "Nordstrom looks like a department store but gets more than half its revenue from e-commerce and its other formats. The team saw 46% upside."
+    summary_status: approved
+    check: "The welcome letter says 'Tonya', the pitch page says 'Tanya'. Vivian Wang is in the letter but not under the photos."
+
+  - type: pitch
+    page: 15
+    company: Lions Gate Entertainment
+    direction: long
+    students: [Amit Bushan, Bruce Kim, Stephanie Moroney]
+    context: "2018 CSIMA Stock Pitch Challenge, 1st place"
+    summary: "Movies, TV production and Starz under one roof, pitched with a target 44% above the price."
+    summary_status: approved
+
+  - type: interview
+    page: 1
+    continues: 17
+    investors:
+      - {name: Jeff Mueller, firm: Polen Capital}
+      - {name: Damon Ficklin, firm: Polen Capital}
+    companies:
+      - {name: Tencent}
+      - {name: Alibaba}
+      - {name: Adobe}
+      - {name: Starbucks}
+      - {name: Align Technology}
+    topics: [quality-compounders, growth, international, asia]
+    summary: "The PMs of Polen's concentrated global growth fund on their guardrails, managing risk through quality, the changing Chinese consumer, and Tencent, Alibaba, Adobe, Starbucks and Align."
+    summary_status: approved
+
+  - type: interview
+    page: 1
+    continues: 26
+    investors:
+      - {name: Dov Gertzulin, firm: DG Capital}
+    companies:
+      - {name: Contura Energy}
+      - {name: Tropicana Entertainment}
+      - {name: Twin River Worldwide}
+    topics: [distressed, special-situations, credit]
+    summary: "Dov invests across the capital structure in mid-sized companies: distressed debt, post-reorg equities and other special situations. He covers the tech bubble, buying distressed debt in 2008, and Contura, Tropicana Entertainment and Twin River."
+    summary_status: approved
+
+  - {type: other, page: 2, title: "Welcome letter"}

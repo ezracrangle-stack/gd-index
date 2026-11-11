@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}Companies{% endblock %}
+{% block description %}Companies discussed in Graham & Doddsville interviews and student pitches, each with its pages.{% endblock %}
+{% block main %}
+<h1 class="page-title">Companies</h1>
+<p class="dek">Companies an investor discusses as an investment or a case study, and every company a student pitched. Passing mentions are left out.</p>
+<form class="filter" role="search" onsubmit="return false"><label class="sr" for="f">Filter companies</label>
+  <input id="f" type="search" placeholder="Filter by company" autocomplete="off"></form>
+<ul class="clist" id="list">
+{% for co in companies %}
+  <li data-q="{{ co.name }}"><a href="{{ root }}c/{{ co.slug }}.html">{{ co.name }}</a>
+    <span class="ccount">{% if co.pitches %}pitch{% endif %}{% if co.pitches and co.interviews %} · {% endif %}{% if co.interviews %}{{ co.interviews|length }}{% endif %}</span></li>
+{% endfor %}
+</ul>
+{% endblock %}
+{% block scripts %}<script src="{{ root }}static/filter.js"></script>{% endblock %}

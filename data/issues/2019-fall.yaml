@@ -1,0 +1,90 @@
+id: 2019-fall
+label: Fall 2019
+date: 2019-11
+number: 37
+pdf: https://business.columbia.edu/sites/default/files-efs/imce-uploads/Graham%26Doddsville_Issue37.pdf
+pages: 48
+status: published
+
+items:
+  - {type: other, page: 3, title: "2019 Pershing Square Challenge"}
+  - {type: other, page: 4, title: "Omaha dinner, L.A. alumni event and Value Investing welcome reception"}
+
+  - type: interview
+    page: 1
+    continues: 6
+    investors:
+      - {name: Paul Moroz, firm: Mawer Investment Management}
+    companies:
+      - {name: Wolters Kluwer}
+      - {name: Alphabet}
+      - {name: Constellation Software}
+    topics: [quality-compounders, international]
+    summary: "Mawer's CIO on learning from running a business early, measuring performance, and three holdings: a 'boring' Wolters Kluwer, the headwinds facing Alphabet, and Constellation Software, owned since its 2006 IPO."
+    summary_status: approved
+
+  - type: pitches
+    page: 16
+    title: CBS Students' Investment Ideas
+
+  - type: pitch
+    page: 16
+    company: Aramark
+    direction: long
+    students: [David Hao, Eric Niu, Freda Zhuo]
+    context: "2019 Pershing Square Challenge, finalist"
+    summary: "Pitched in May 2019 as deeply undervalued. In August, Mantle Ridge took a 20% economic stake and the CEO stepped down soon after."
+    summary_status: approved
+
+  - type: pitch
+    page: 18
+    company: ServiceMaster
+    direction: long
+    students: [James Shen, Lauren Warsavsky, Mark Zager]
+    context: "2019 Pershing Square Challenge, finalist"
+    summary: "A long with constructive activism: a more focused strategy, a bigger board and pay tied to shareholder value."
+    summary_status: approved
+
+  - type: pitch
+    page: 20
+    company: US Foods
+    direction: long
+    students: [Edgardo Gutierrez, Yuri Rettore, Rodolfo Zeidler]
+    context: "2019 Pershing Square Challenge, finalist"
+    summary: "A long with activism. Selling more to independent restaurants and more private label should widen gross margins."
+    summary_status: approved
+
+  - type: interview
+    page: 1
+    continues: 22
+    investors:
+      - {name: Mohnish Pabrai, firm: Pabrai Funds}
+    companies:
+      - {name: IPSCO}
+      - {name: GrafTech}
+    topics: [deep-value, international, portfolio-construction]
+    summary: "Mohnish on the difference between compounding a portfolio and owning compounders, why he avoids borrowed money and shorts, IPSCO and GrafTech, and investing in South Korea."
+    summary_status: approved
+
+  - type: interview
+    page: 1
+    continues: 30
+    investors:
+      - {name: Ellen Carr, firm: Weaver C. Barksdale & Associates}
+    companies: []
+    topics: [credit]
+    summary: "A high-yield portfolio manager and CBS adjunct on the traps in fallen-angel bonds and how intangible assets are changing what counts as collateral."
+    summary_status: approved
+
+  - type: interview
+    page: 1
+    continues: 42
+    investors:
+      - {name: Matthew Peterson, firm: Peterson Capital Management}
+    companies:
+      - {name: Daily Journal}
+    topics: [quality-compounders, portfolio-construction]
+    summary: "Matthew's three tests for a business, how he builds a portfolio, and why he bought Daily Journal."
+    summary_status: approved
+
+  - {type: other, page: 2, title: "Welcome letter"}

@@ -1,0 +1,109 @@
+id: 2012-spring
+label: Spring 2012
+date: 2012-05
+number: 15
+pdf: https://business.columbia.edu/sites/default/files-efs/imce-uploads/Graham%20%26%20Doddsville%20-%20Issue%2015%20-%20Spring%202012.pdf
+pages: 64
+status: published
+
+items:
+  - type: interview
+    page: 1
+    continues: 16
+    investors:
+      - {name: Jim Chanos, firm: Kynikos Associates}
+    companies: []
+    topics: [short-selling, accounting, asia]
+    summary: "One of the best-known short sellers on his early career, what it takes to short well, and his bearish views on Chinese real estate, US natural gas and for-profit education."
+    summary_status: approved
+
+  - type: interview
+    page: 1
+    continues: 31
+    investors:
+      - {name: Tom Russo, firm: Gardner Russo & Gardner}
+    companies:
+      - {name: Nestlé}
+      - {name: Mastercard}
+      - {name: Martin Marietta Materials}
+      - {name: Brown-Forman}
+      - {name: E.W. Scripps}
+    topics: [quality-compounders, international, management]
+    summary: "Tom looks for managements with the 'capacity to suffer' through early hits to reported profits to build an advantage. He talks about Nestlé, Mastercard, Martin Marietta, Brown-Forman and E.W. Scripps."
+    summary_status: approved
+
+  - type: interview
+    page: 1
+    continues: 53
+    investors:
+      - {name: Julian Robertson, firm: Tiger Management}
+    companies:
+      - {name: Apple}
+      - {name: Alphabet}
+    topics: [management, career-advice]
+    summary: "Tiger's founder on mentoring the Tiger Cubs, why analysts should focus on strong management, and why he expected Apple and Google to keep outperforming."
+    summary_status: approved
+
+  - type: interview
+    page: 1
+    continues: 44
+    investors:
+      - {name: Alex Roepers, firm: Atlantic Investment Management}
+    companies:
+      - {name: Joy Global}
+      - {name: Owens-Illinois}
+    topics: [portfolio-construction, special-situations]
+    summary: "Alex went from 'Mr. Divestiture' at an industrial conglomerate to his own firm. He keeps a very concentrated portfolio inside his circle of competence and explains Joy Global and Owens-Illinois."
+    summary_status: approved
+
+  - type: interview
+    page: 2
+    continues: 58
+    investors:
+      - {name: Robert Luciano, firm: VGI Partners}
+    companies:
+      - {name: Oracle}
+      - {name: WD-40}
+    topics: [quality-compounders, portfolio-construction]
+    summary: "'Concentrate capital in your best ideas.' Robert's approach follows Buffett closely; he explains his theses on Oracle and WD-40."
+    summary_status: approved
+
+  - {type: other, page: 4, title: "2012 Pershing Square Challenge"}
+
+  - type: pitch
+    page: 6
+    company: Avon Products
+    direction: long
+    students: [Anna Baghdasaryan, Rohit Dhingra]
+    context: "2012 Pershing Square Challenge, winner"
+    summary: "An iconic $11 billion beauty company near its historical low valuation, with a big distribution network in fast-growing emerging markets."
+    summary_status: approved
+
+  - type: pitch
+    page: 8
+    company: Ingersoll-Rand
+    direction: long
+    students: [Jonathan Au, Arjun Bhattacherjee, Rory Ellison]
+    context: "2012 Pershing Square Challenge, 2nd place"
+    summary: "An activist pitch with a $58 target and operating and cyclical catalysts over the next 12 to 18 months."
+    summary_status: approved
+
+  - type: pitch
+    page: 10
+    company: Legg Mason
+    direction: long
+    students: [Rod de Crayencour, Jake Lubel, Grant Smith]
+    context: "2012 Pershing Square Challenge, 3rd place"
+    summary: "At $26, the team argued the market was pricing Legg Mason's past and ignoring the value of its tax credits."
+    summary_status: approved
+
+  - type: pitch
+    page: 12
+    company: H&R Block
+    direction: long
+    students: [Robert Fournier, Ian Holmes, Kartik Nehru]
+    context: "2012 Pershing Square Challenge, finalist"
+    summary: "11 times earnings and an 11% free cash flow yield, held down by fears about cannibalization and its old subprime business."
+    summary_status: approved
+
+  - {type: other, page: 14, title: "Trip to Omaha"}

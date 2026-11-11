@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block title %}Student pitches{% endblock %}
+{% block description %}Every stock pitch by Columbia Business School students published in Graham & Doddsville, filterable by long or short and by year.{% endblock %}
+{% block main %}
+<h1 class="page-title">Student pitches</h1>
+<p class="dek">Every stock pitch Columbia students published in Graham &amp; Doddsville. Most come from competitions like the Pershing Square Challenge.</p>
+<div class="pfilters" id="pfilters" hidden>
+  <span class="seg" role="group" aria-label="Long or short">
+    <button type="button" data-dir="" aria-pressed="true">All</button>
+    <button type="button" data-dir="long" aria-pressed="false">Long</button>
+    <button type="button" data-dir="short" aria-pressed="false">Short</button>
+  </span>
+  <label>Year <select id="year"><option value="">All years</option>{% for y in years %}<option>{{ y }}</option>{% endfor %}</select></label>
+  <span class="small" id="pcount"></span>
+</div>
+<table class="mtable ptable">
+  <thead><tr><th>Issue</th><th>Company</th><th>Students</th><th class="num">Page</th></tr></thead>
+  <tbody>
+  {% for it in pitches %}
+    <tr data-dir="{{ it.direction }}" data-year="{{ it.issue.year }}">
+      <td class="when"><a href="{{ root }}i/{{ it.issue.id }}.html">{{ it.issue.label }}</a></td>
+      <td class="who"><span class="dir dir-{{ it.direction }}">{{ it.direction|title }}</span> <a href="{{ root }}c/{{ it.co.slug }}.html">{{ it.co.name }}</a>{% if it.security %}<span class="latest">{{ it.security }}</span>{% endif %}{% if it.context %}<span class="latest">{{ it.context }}</span>{% endif %}</td>
+      <td class="style">{{ it.students|join(", ") }}</td>
+      <td class="num"><a class="pg" href="{{ it.url }}" target="_blank" rel="noopener">p. {{ it.page }}<span class="arrow"> &#8599;</span></a></td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+{% endblock %}
+{% block scripts %}<script src="{{ root }}static/pitches.js"></script>{% endblock %}

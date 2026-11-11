@@ -1,0 +1,105 @@
+id: 2018-spring
+label: Spring 2018
+date: 2018-05
+number: 33
+pdf: https://business.columbia.edu/sites/default/files-efs/imce-uploads/Graham%20%26%20Doddsville_Issue%2033_v24.pdf
+pages: 46
+status: published
+
+items:
+  - {type: other, page: 3, title: "2018 Pershing Square Challenge"}
+  - {type: other, page: 4, title: "CSIMA Conference"}
+
+  - type: interview
+    page: 1
+    continues: 6
+    investors:
+      - {name: Bruce Greenwald, firm: Columbia Business School}
+      - {name: Mark Cooper, firm: First Eagle Investment Management}
+    companies:
+      - {name: Deere}
+    topics: [moats, deep-value]
+    summary: "A send-off for Bruce Greenwald as he retired, paired with his former student Mark Cooper of First Eagle. Mark talks about Deere; Greenwald warns traditional value investors that the world has changed."
+    summary_status: approved
+
+  - type: pitches
+    page: 16
+    title: Student Investment Ideas
+
+  - type: pitch
+    page: 16
+    company: Stericycle
+    direction: short
+    students: [Jade Hu, Asher Jacobs, Rana Pritanjali]
+    context: "11th Annual Pershing Square Challenge, winner"
+    summary: "New competition, a high fixed-cost base and a stretched balance sheet, with a target about 40% below the price."
+    summary_status: approved
+
+  - type: pitch
+    page: 18
+    company: Credit Acceptance
+    direction: short
+    students: [Steve Cao, Winter Li, Tyler Redd]
+    context: "11th Annual Pershing Square Challenge, 2nd place"
+    summary: "Shorted with a target 33% below the price and a bear case of 71% downside."
+    summary_status: approved
+
+  - type: pitch
+    page: 20
+    company: Spotify
+    direction: short
+    students: [Mike Allison, Eric Herzfeld, Michael Wooten]
+    context: "11th Annual Pershing Square Challenge, 3rd place"
+    summary: "Built on interviews with 23 music-industry experts, the team saw about 50% downside by the end of 2019."
+    summary_status: approved
+
+  - type: pitch
+    page: 22
+    company: C.H. Robinson
+    direction: short
+    students: [Ryan Darrohn, Brad Headley, John White]
+    context: "11th Annual Pershing Square Challenge, finalist"
+    summary: "A truckload broker whose spread the team expected to shrink as the market changes."
+    summary_status: approved
+
+  - type: pitch
+    page: 24
+    company: Harvey Norman
+    direction: short
+    students: [Arthur Brousseau, Greg Doger de Speville, Neethling McGrath]
+    context: "11th Annual Pershing Square Challenge, finalist"
+    summary: "An Australian retailer at the top of the cycle, facing Amazon Australia, with franchisee revenue and cash receipts drifting apart."
+    summary_status: approved
+
+  - type: pitch
+    page: 26
+    company: Digicel
+    security: "2020 notes"
+    direction: long
+    students: [Jingjing Huang, Matthew Mann, Viraj Vora]
+    context: "2018 UCLA Credit Pitch Competition, winner"
+    summary: "A credit pitch on Digicel's bonds due 2020."
+    summary_status: approved
+
+  - type: interview
+    page: 1
+    continues: 28
+    investors:
+      - {name: Michael Mauboussin, firm: BlueMountain Capital Management}
+      - {name: Tom Digenan, firm: UBS}
+    companies: []
+    topics: [moats, management, career-advice]
+    summary: "Two investors who also teach on the base-rate fallacy, lasting competitive advantage, ETFs, and how teams make decisions."
+    summary_status: approved
+
+  - type: interview
+    page: 1
+    continues: 40
+    investors:
+      - {name: Rishi Renjen, firm: ROAM Global Management}
+    companies: []
+    topics: [short-selling, firm-building, career-advice]
+    summary: "Rishi was about to launch a concentrated long-short fund focused on single-name shorts. He talks about learning from Lee Ainslie and Larry Robbins and why he teaches two classes at Columbia."
+    summary_status: approved
+
+  - {type: other, page: 2, title: "Welcome letter"}

@@ -1,0 +1,38 @@
+{% macro pg(it) -%}
+<a class="pg" href="{{ it.url }}" target="_blank" rel="noopener">p. {{ it.page }}<span class="arrow"> &#8599;</span></a>
+{%- endmacro %}
+
+{% macro summary(it) -%}
+{% if it.show_summary %}<p class="note">{% if it.summary_draft %}<span class="draft-tag">Draft</span> {% endif %}{{ it.summary }}</p>{% endif %}
+{%- endmacro %}
+
+{# One interview. show_issue=True on investor, company and topic pages. #}
+{% macro interview(it, root, show_issue=False, me=None) -%}
+<li id="p{{ it.page }}">
+  <span class="hit-when">{% if show_issue %}<a href="{{ root }}i/{{ it.issue.id }}.html">{{ it.issue.label }}</a>{% else %}{{ pg(it) }}{% endif %}</span>
+  <span class="hit-what">
+    {% if me %}{% set others = it.people|rejectattr("slug", "equalto", me)|list %}{% if others %}<span class="with">With {% for p in others %}<a href="{{ root }}p/{{ p.slug }}.html">{{ p.name }}</a>{{ ", " if not loop.last }}{% endfor %}</span>{% endif %}
+    {% else %}<span class="who-line">{% for p in it.people %}<a href="{{ root }}p/{{ p.slug }}.html">{{ p.name }}</a>{% if not loop.last %}{{ " & " if loop.revindex == 2 else ", " }}{% endif %}{% endfor %}</span>
+    {% if it.firms %}<span class="firm">{{ it.firms|join(", ") }}</span>{% endif %}{% endif %}
+    {% if show_issue %}<span class="hit-meta">Interview, {{ pg(it) }}{% if it.continues %}, continues p. {{ it.continues }}{% endif %}</span>
+    {% elif it.continues %}<span class="hit-meta">Starts on the cover, continues on p. {{ it.continues }}</span>{% endif %}
+    {{ summary(it) }}
+    {% if it.cos %}<span class="hit-meta">Companies: {% for c in it.cos %}<a href="{{ root }}c/{{ c.slug }}.html">{{ c.name }}</a>{{ ", " if not loop.last }}{% endfor %}</span>{% endif %}
+    {% if it.tops %}<span class="chips">{% for t in it.tops %}<a href="{{ root }}t/{{ t.slug }}.html">{{ t.label }}</a>{% endfor %}</span>{% endif %}
+  </span>
+</li>
+{%- endmacro %}
+
+{# One student pitch. #}
+{% macro pitch(it, root, show_issue=False) -%}
+<li id="p{{ it.page }}">
+  <span class="hit-when">{% if show_issue %}<a href="{{ root }}i/{{ it.issue.id }}.html">{{ it.issue.label }}</a>{% else %}{{ pg(it) }}{% endif %}</span>
+  <span class="hit-what">
+    <span class="who-line"><span class="dir dir-{{ it.direction }}">{{ it.direction|title }}</span> <a href="{{ root }}c/{{ it.co.slug }}.html">{{ it.co.name }}</a>{% if it.security %} <span class="security">{{ it.security }}</span>{% endif %}</span>
+    <span class="firm">By {% for s in it.students %}{{ s }}{% if not loop.last %}{{ " and " if loop.revindex == 2 else ", " }}{% endif %}{% endfor %}</span>
+    {% if show_issue %}<span class="hit-meta">Student pitch, {{ pg(it) }}</span>{% endif %}
+    {% if it.context %}<span class="hit-meta">{{ it.context }}</span>{% endif %}
+    {{ summary(it) }}
+  </span>
+</li>
+{%- endmacro %}

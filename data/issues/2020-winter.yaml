@@ -1,0 +1,75 @@
+id: 2020-winter
+label: Winter 2020
+date: 2020-01
+number: 38
+pdf: https://business.columbia.edu/sites/default/files-efs/imce-uploads/GD_38_vf.pdf
+pages: 36
+status: published
+
+items:
+  - {type: other, page: 3, title: "2019 Graham & Dodd Breakfast and CSIMA Stock Pitch Challenge"}
+
+  - type: interview
+    page: 1
+    continues: 5
+    investors:
+      - {name: Paul B. Kazarian, firm: Japonica Partners}
+    companies: []
+    topics: [credit, distressed, international]
+    summary: "Paul went from corporate white knight in the 1980s to Fortune 500 CEO, and then became one of the largest holders of Greek government bonds, with $4 billion, during the euro crisis. He explains why he rejects the standard risk/return framework."
+    summary_status: approved
+
+  - type: pitches
+    page: 17
+    title: CBS Students' Investment Ideas
+
+  - type: pitch
+    page: 17
+    company: Peloton Interactive
+    direction: short
+    students: [Bruce Kim]
+    context: "2020 Artisan International Value Stock Pitch Challenge, finalist"
+    summary: "Bruce argues Peloton has no moat against SoulCycle and other rivals, with a $7 target."
+    summary_status: approved
+
+  - type: pitch
+    page: 19
+    company: Rolls-Royce
+    direction: long
+    students: [Alvaro Pasquin Llorente]
+    context: "2020 Artisan International Value Stock Pitch Challenge, winner"
+    summary: "The biggest investment period in Rolls-Royce's history is ending. Alvaro's thesis, in his own title: cash is coming."
+    summary_status: approved
+
+  - type: pitch
+    page: 21
+    company: Nuance Communications
+    direction: long
+    students: [James Shen]
+    context: "2020 Artisan International Value Stock Pitch Challenge, finalist"
+    summary: "Speech recognition software with a protected moat, in the middle of a SaaS transition under a new CEO."
+    summary_status: approved
+
+  - type: pitch
+    page: 23
+    company: Etsy
+    direction: long
+    students: [Mingming Wu, Kyle Campbell, K.Y. Wong]
+    context: "2019 Neuberger Berman ESG Challenge, champion"
+    summary: "A two-sided marketplace for handmade and creative goods, pitched with a 4-year target 76% above the price."
+    summary_status: approved
+
+  - type: interview
+    page: 1
+    continues: 25
+    investors:
+      - {name: Dana Bezerra, firm: Heron Foundation}
+      - {name: Preeti Bhattacharji, firm: Heron Foundation}
+      - {name: Nisha Prasad, firm: Heron Foundation}
+    companies: []
+    topics: [impact-investing]
+    summary: "Heron aims to invest 100% of its capital in line with its mission. Its president and two CBS alumni explain how they analyze a company's social impact and where impact investing is headed."
+    summary_status: approved
+
+  - {type: other, page: 2, title: "Welcome letter"}
+  - {type: other, page: 35, title: "Value Investing executive education"}

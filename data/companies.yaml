@@ -1,0 +1,6 @@
+# One entry per company printed under more than one name.
+# The key is the name shown on the site; aliases are the other names.
+Fiat Chrysler:
+  aliases: [Fiat]
+Live Nation Entertainment:
+  aliases: [Live Nation]

@@ -1,0 +1,66 @@
+id: 2021-fall
+label: Fall 2021
+date: 2021-12
+number: 44
+pdf: https://business.columbia.edu/sites/default/files-efs/imce-uploads/Graham%20%26%20Doddsville_Issue%2043_vF.pdf
+pages: 48
+status: published
+
+# The file name says "Issue 43", but the editors' letter calls this the 44th edition.
+
+items:
+  - type: interview
+    page: 4
+    investors:
+      - {name: Gavin Baker, firm: Atreides Management}
+    companies:
+      - {name: Dish Network}
+    topics: [technology, growth, career-advice]
+    summary: "Gavin ran Fidelity's OTC Fund before starting Atreides in 2019. He talks about the people who shaped him, how long investment judgment takes to build, and why telecom pricing makes Dish interesting."
+    summary_status: approved
+
+  - type: pitches
+    page: 16
+    title: CBS Students' Investment Ideas
+
+  - type: pitch
+    page: 16
+    company: CoStar Group
+    direction: long
+    students: [Ian Gorman, Joy He, Raghav Mittal]
+    context: "2021 CSIMA Stock Pitch Challenge, 1st place"
+    summary: "CoStar started as the Bloomberg of commercial real estate. The team's case leans on residential, a market about 70% bigger."
+    summary_status: approved
+
+  - type: pitch
+    page: 18
+    company: AptarGroup
+    direction: long
+    students: [Rachita Jain, Angela Pan, Impana Srikantappa, Courtney Owens]
+    context: "2021 Women in Investing Conference"
+    summary: "A packaging maker that works with pharma, beauty and consumer companies on how their products are dispensed."
+    summary_status: approved
+    check: "The bio says 'Rachita', the name line under the photo says 'Richita'. Used Rachita."
+
+  - type: interview
+    page: 20
+    investors:
+      - {name: Rudi van Niekerk, firm: Desert Lion Capital}
+    companies:
+      - {name: Naspers}
+    topics: [international, portfolio-construction]
+    summary: "Rudi came from private equity and launched Desert Lion in 2019 to invest in South Africa. He covers capital allocation there, Naspers and Prosus, and the country's place in platinum-group metals."
+    summary_status: approved
+
+  - type: interview
+    page: 34
+    investors:
+      - {name: Ben Preston, firm: Orbis}
+    companies:
+      - {name: NetEase}
+      - {name: Tencent}
+    topics: [international, asia]
+    summary: "Orbis launched its global fund in 1990 with zero in Japan, at the top of the bubble. Ben explains the contrarian habit and the case for NetEase and Tencent in China."
+    summary_status: approved
+
+  - {type: other, page: 2, title: "Welcome letter"}

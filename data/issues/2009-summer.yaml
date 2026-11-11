@@ -1,0 +1,70 @@
+id: 2009-summer
+label: Summer 2009
+date: 2009-06
+number: 6
+pdf: https://business.columbia.edu/sites/default/files-efs/imce-uploads/Graham%20and%20Doddsville-%20Issue%206%20Summer%202009.pdf
+pages: 37
+status: published
+
+items:
+  - type: interview
+    page: 1
+    continues: 2
+    investors:
+      - {name: Paul Sonkin, firm: Hummingbird Value Fund}
+    companies:
+      - {name: Avantair}
+    topics: [small-caps, macro]
+    summary: "Paul compares the post-Lehman panic to 9/11, explains why he thought the expected 'next shoe' wouldn't drop, and talks about Avantair taking share from NetJets."
+    summary_status: approved
+
+  - type: interview
+    page: 11
+    investors:
+      - {name: Steve Moyer}
+    companies: []
+    topics: [distressed, credit]
+    summary: "'The mother of distressed cycles.' Steve explains why the debt build-up made a wave of distress foreseeable, and what the cycle meant for value investors."
+    summary_status: approved
+    check: "The text I read doesn't name Steve Moyer's firm."
+
+  - type: pitch
+    page: 16
+    company: Precision Castparts
+    direction: long
+    students: [Chuck Murphy]
+    summary: "A misunderstood business riding the shift to high-performance materials like titanium, an organic growth opportunity of 5% to 10% a year."
+    summary_status: approved
+
+  - type: pitch
+    page: 18
+    company: Apollo Group
+    direction: short
+    students: [Tim Rupert, Grant Bowman, John Piermont]
+    context: "2009 Pershing Square Challenge, winner"
+    summary: "The for-profit education company was priced for perfection while its outlook was far from perfect."
+    summary_status: approved
+
+  - type: interview
+    page: 20
+    investors:
+      - {name: Timothy Hartch, firm: Brown Brothers Harriman}
+      - {name: Michael Keller, firm: Brown Brothers Harriman}
+    companies:
+      - {name: Aflac}
+    topics: [quality-compounders]
+    summary: "The co-managers of the BBH Core Select Fund on focusing on essential services within a value framework."
+    summary_status: approved
+
+  - type: interview
+    page: 26
+    investors:
+      - {name: Jim Scott, firm: General Motors Asset Management}
+    companies: []
+    topics: [quantitative, academic-research]
+    summary: "The Heilbrunn Center's director of research, who once ran $45 billion of quant strategies at Prudential, on using quantitative tools in value investing."
+    summary_status: approved
+
+  - {type: other, page: 34, title: "2009 Pershing Square Challenge"}
+  - {type: other, page: 36, title: "Michael van Biema event"}
+  - {type: other, page: 2, title: "Welcome letter"}

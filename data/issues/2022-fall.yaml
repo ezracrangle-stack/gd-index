@@ -1,0 +1,68 @@
+id: 2022-fall
+label: Fall 2022
+date: 2022-12
+number: 46
+pdf: https://business.columbia.edu/sites/default/files-efs/imce-uploads/Graham%20Doddsville%20Fall%202022%20Issue%2046_0.pdf
+pages: 47
+status: published
+
+items:
+  - type: interview
+    page: 5
+    investors:
+      - {name: Jacob Rubin, firm: Philosophy Capital}
+    companies:
+      - {name: Atlas Air Worldwide}
+      - {name: Bombardier}
+      - {name: Avaya}
+    topics: [special-situations, distressed, short-selling]
+    summary: "Philosophy goes long and short across the capital structure. Jacob tells the Atlas Air and Bombardier stories, and how Avaya's converts jumped to 95 and then went wrong a couple of weeks later."
+    summary_status: approved
+
+  - type: pitches
+    page: 16
+    title: CBS Students' Investment Ideas
+
+  - type: pitch
+    page: 16
+    company: CATL (Contemporary Amperex Technology)
+    direction: long
+    students: [Shalin Doshi]
+    context: "First Annual Kawaja Growth Stock Pitch Challenge, 1st place"
+    summary: "The leader in EV batteries with about a third of the market, pitched with a target twice the price by the end of 2024."
+    summary_status: approved
+
+  - type: pitch
+    page: 18
+    company: Planet Fitness
+    direction: long
+    students: [Alan Leite, Thomas Schlabach, Cheng Jiang, Matthew West]
+    context: "2022 Chicago Booth Investment Conference & Competition, 1st place"
+    summary: "The world's largest gym franchisor, with more than 2,300 locations and 90% of them franchised."
+    summary_status: approved
+
+  - type: interview
+    page: 20
+    investors:
+      - {name: Connor Haley, firm: Alta Fox Capital Management}
+    companies:
+      - {name: IDT}
+      - {name: XPEL}
+    topics: [small-caps, activism, management, firm-building]
+    summary: "Connor started Alta Fox in 2018 to invest in small, overlooked companies. He talks about what he took from Joel Greenblatt, the capital allocation mistakes he sees, engaging with management, and his IDT thesis."
+    summary_status: approved
+
+  - type: interview
+    page: 32
+    investors:
+      - {name: Christopher Bloomstran, firm: Semper Augustus}
+    companies:
+      - {name: Berkshire Hathaway}
+      - {name: Disney}
+      - {name: Ross Stores}
+    topics: [quality-compounders, management, portfolio-construction]
+    summary: "Chris on 24 years of running a concentrated book at Semper Augustus, Berkshire's history, his advice to Disney on capital, and why Ross Stores is one of his biggest mistakes."
+    summary_status: approved
+
+  - {type: other, page: 2, title: "Welcome letter"}
+  - {type: other, page: 3, title: "Heilbrunn Center and CSIMA events"}

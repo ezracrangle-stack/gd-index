@@ -1,0 +1,49 @@
+id: 2012-fall
+label: Fall 2012
+date: 2012-11
+number: 16
+pdf: https://business.columbia.edu/sites/default/files-efs/imce-uploads/Graham%20%26%20Doddsville%20-%20Issue%2016%20-%20Fall%202012_vFINAL2.pdf
+pages: 32
+status: published
+
+# The cover says Issue XVI; the welcome letter says Issue XV, which looks like a leftover from the spring issue.
+
+items:
+  - {type: other, page: 3, title: "Omaha dinner"}
+
+  - type: interview
+    page: 1
+    continues: 4
+    investors:
+      - {name: Joel Greenblatt, firm: Gotham Capital}
+    companies: []
+    topics: [quantitative, special-situations, career-advice]
+    summary: "Joel on moving from special situations to a formula-based approach, why the market's focus on short-term results creates the biggest inefficiencies, and why he still thought stocks were cheap."
+    summary_status: approved
+
+  - type: interview
+    page: 1
+    continues: 14
+    investors:
+      - {name: Jim Tisch, firm: Loews Corporation}
+      - {name: Joe Rosenberg, firm: Loews Corporation}
+    companies:
+      - {name: Loews}
+    topics: [management, private-equity]
+    summary: "'Patience is part of our DNA.' Jim Tisch on permanent capital and the dangers of buying companies; Joe Rosenberg, 50 years on Wall Street, on meeting Larry Tisch and joining Loews in 1973."
+    summary_status: approved
+
+  - type: interview
+    page: 1
+    continues: 23
+    investors:
+      - {name: Chuck Royce, firm: Royce & Associates}
+      - {name: Whitney George, firm: Royce & Associates}
+      - {name: Charlie Dreifus, firm: Royce & Associates}
+      - {name: Buzz Zaino, firm: Royce & Associates}
+    companies: []
+    topics: [small-caps]
+    summary: "Four small-cap veterans compare their styles, from meeting management to clean balance sheets, and talk about how small-cap investing has changed."
+    summary_status: approved
+
+  - {type: other, page: 2, title: "Welcome letter"}

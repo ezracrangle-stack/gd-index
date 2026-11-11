@@ -1,0 +1,34 @@
+id: 2008-summer
+label: Summer/Fall 2008
+date: 2008-06
+number: 4
+pdf: https://business.columbia.edu/sites/default/files-efs/imce-uploads/Graham%20And%20Doddsville%20-%20Issue%204%20Summer%202008.pdf
+pages: 22
+status: published
+
+items:
+  - type: interview
+    page: 1
+    continues: 2
+    investors:
+      - {name: Mohnish Pabrai, firm: Pabrai Funds}
+    companies: []
+    topics: [deep-value, portfolio-construction]
+    summary: "'Heads I win, tails I don't lose that much.' Mohnish on discovering value investing at 30 through a Peter Lynch book on a flight, and why most of the fund industry ignored Buffett's laws of investing."
+    summary_status: approved
+
+  - {type: other, page: 10, title: "Annual pilgrimage"}
+  - {type: other, page: 14, title: "Squaring off against a hedge fund master: the first Pershing Square Challenge"}
+
+  - type: pitch
+    page: 16
+    company: NutriSystem
+    direction: long
+    students: [Shilpa Marda]
+    context: "First Annual Pershing Square Challenge, winner"
+    summary: "The winning pitch of the first Pershing Square Challenge, on a weight-loss company built on portion-controlled prepared meals sold direct."
+    summary_status: approved
+
+  - {type: other, page: 18, title: "2008 CIMA Conference"}
+  - {type: other, page: 21, title: "MBA advice from the Oracle of Omaha, by David Kessler"}
+  - {type: other, page: 2, title: "Welcome letter"}

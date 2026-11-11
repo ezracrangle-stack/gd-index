@@ -1,0 +1,79 @@
+id: 2018-fall
+label: Fall 2018
+date: 2018-11
+number: 34
+pdf: https://business.columbia.edu/sites/default/files-efs/imce-uploads/Graham%20%26%20Doddsville_Issue%2034_v22.pdf
+pages: 33
+status: published
+
+items:
+  - {type: other, page: 3, title: "From Graham to Buffett and Beyond Omaha dinner"}
+  - {type: other, page: 4, title: "Howard Marks book signing"}
+
+  - type: interview
+    page: 1
+    continues: 6
+    investors:
+      - {name: Roger de Bree, firm: "Tweedy, Browne Company"}
+      - {name: Frank Hawrylak, firm: "Tweedy, Browne Company"}
+      - {name: Jay Hill, firm: "Tweedy, Browne Company"}
+      - {name: Tom Shrager, firm: "Tweedy, Browne Company"}
+      - {name: John Spears, firm: "Tweedy, Browne Company"}
+      - {name: Bob Wyckoff, firm: "Tweedy, Browne Company"}
+      - {name: Andrew Ewert, firm: "Tweedy, Browne Company"}
+      - {name: Amelia Koh, firm: "Tweedy, Browne Company"}
+    companies:
+      - {name: AutoZone}
+      - {name: WPP}
+      - {name: Baidu}
+    topics: [international, deep-value]
+    summary: "Six members of the investment committee of one of the firms in Buffett's 'Superinvestors of Graham-and-Doddsville' talk, plus two CBS alumni analysts. Ben Graham's legacy, investing abroad, and AutoZone, WPP and Baidu."
+    summary_status: approved
+
+  - type: pitches
+    page: 17
+    title: Student Investment Ideas
+
+  - type: pitch
+    page: 17
+    company: JD.com
+    direction: long
+    students: [Winter Li, Shengyang Shi]
+    summary: "The team thought the selloff was an overreaction and valued JD.com with a sum of the parts."
+    summary_status: approved
+
+  - type: pitch
+    page: 19
+    company: Qorvo
+    direction: long
+    students: [Michael Wooten]
+    summary: "A semiconductor company with a strong position in radio-frequency technology and its own operating tailwinds."
+    summary_status: approved
+
+  - type: interview
+    page: 1
+    continues: 21
+    investors:
+      - {name: Scott Miller, firm: Greenhaven Road Capital}
+    companies:
+      - {name: Etsy}
+      - {name: TripAdvisor}
+      - {name: Scheid Vineyards}
+      - {name: Fiat Chrysler}
+    topics: [small-caps, special-situations, portfolio-construction]
+    summary: "Scott ran businesses before starting Greenhaven Road in 2011. He talks about autonomous vehicles, sizing, and Etsy, TripAdvisor, Fiat Chrysler and Scheid Vineyards, a family wine company whose land is worth twice the share price."
+    summary_status: approved
+    check: "The welcome letter says 'Schein Vineyards'; the interview says 'Scheid Vineyards'. Used Scheid."
+
+  - type: interview
+    page: 1
+    continues: 28
+    investors:
+      - {name: Steve Tusa, firm: JP Morgan}
+    companies:
+      - {name: General Electric}
+    topics: [short-selling, accounting, career-advice]
+    summary: "The JP Morgan analyst who was the lone bear on GE from May 2016, before the stock fell more than 60%. He walks through his GE research, the Welch and Immelt years, and why patience matters."
+    summary_status: approved
+
+  - {type: other, page: 2, title: "Welcome letter"}

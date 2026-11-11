@@ -1,0 +1,126 @@
+id: 2015-winter
+label: Winter 2015
+date: 2015-01
+number: 23
+pdf: https://business.columbia.edu/sites/default/files-efs/imce-uploads/Graham%20%20Doddsville_Issue%2023_Final.pdf
+pages: 43
+status: published
+
+items:
+  - {type: other, page: 3, title: "24th Annual Graham & Dodd Breakfast"}
+
+  - type: interview
+    page: 1
+    continues: 4
+    investors:
+      - {name: Bill Ackman, firm: Pershing Square Capital Management}
+    companies:
+      - {name: Allergan}
+      - {name: Valeant}
+      - {name: Herbalife}
+      - {name: Canadian Pacific}
+      - {name: Fannie Mae}
+      - {name: Freddie Mac}
+      - {name: Zoetis}
+      - {name: McGraw-Hill Financial}
+    topics: [activism, short-selling]
+    summary: "Bill on what he calls the creative side of investing, with stops at Allergan and Valeant, Herbalife, Canadian Pacific, Fannie and Freddie, Zoetis and McGraw-Hill."
+    summary_status: approved
+
+  - type: interview
+    page: 1
+    continues: 13
+    investors:
+      - {name: Jay Petschek, firm: Corsair Capital Management}
+      - {name: Steve Major, firm: Corsair Capital Management}
+    companies:
+      - {name: Shaw Group}
+      - {name: Chicago Bridge & Iron}
+      - {name: Ralcorp}
+      - {name: Clearwater Paper}
+      - {name: LyondellBasell}
+    topics: [special-situations, spin-offs]
+    summary: "The co-PMs of Corsair, an event-driven long/short firm, walk through situations including Shaw Group and Chicago Bridge & Iron, Ralcorp, Clearwater Paper and LyondellBasell."
+    summary_status: approved
+
+  - type: interview
+    page: 1
+    continues: 21
+    investors:
+      - {name: Andrew Wellington, firm: Lyrical Asset Management}
+    companies:
+      - {name: Avis Budget}
+      - {name: Hertz}
+      - {name: AerCap}
+    topics: [portfolio-construction, deep-value]
+    summary: "Lyrical's founder on how he builds a portfolio, with Avis, Hertz and AerCap among the investments he uses to show how he thinks."
+    summary_status: approved
+
+  - type: pitches
+    page: 29
+    title: Student Ideas
+
+  - type: pitch
+    page: 29
+    company: First Solar
+    direction: short
+    students: [Kirill Aleksandrov]
+    context: "2015 Amici Capital Prize, finalist"
+    summary: "Kirill argues First Solar was over-earning on legacy projects and on demand pulled forward before a solar tax credit expired."
+    summary_status: approved
+
+  - type: pitch
+    page: 31
+    company: JetBlue Airways
+    direction: long
+    students: [Harry Garcia]
+    context: "2015 Amici Capital Prize, finalist"
+    summary: "JetBlue's returns on capital had trailed its rivals for three years. Harry's case rests on what had just started to change."
+    summary_status: approved
+
+  - type: pitch
+    page: 33
+    company: Schibsted
+    direction: long
+    students: [Luke Tashie]
+    context: "2015 Amici Capital Prize, finalist"
+    summary: "A 175-year-old Oslo media company turning into a leading online classifieds operator in more than 20 countries."
+    summary_status: approved
+
+  - type: pitch
+    page: 35
+    company: CDK Global
+    direction: long
+    students: [Brian Waterhouse]
+    context: "2015 Amici Capital Prize, finalist"
+    summary: "A classic spin-off from ADP, earning far less than its closest competitor, Reynolds & Reynolds."
+    summary_status: approved
+
+  - type: pitch
+    page: 37
+    company: SolarCity
+    direction: short
+    students: [Brendan Dawson, Sisy Wang, Aaron Purcell]
+    context: "Darden @ Virginia Investing Challenge, 1st place"
+    summary: "A leader in solar installation whose valuation, the team argues, ignores real risks: little brand or cost advantage over peers, plus the step-down in the solar tax credit."
+    summary_status: approved
+
+  - type: pitch
+    page: 39
+    company: Cardtronics
+    direction: short
+    students: [Damian Creber, Edward Reynolds, Kevin Lin]
+    context: "Alpha Challenge at UNC Kenan-Flagler, 1st place"
+    summary: "7-Eleven was 24% of revenue and 45% of EBITDA, and after depreciation and interest, nearly all of the profit. That contract was under attack."
+    summary_status: approved
+
+  - type: pitch
+    page: 41
+    company: Progressive Waste Solutions
+    direction: long
+    students: [Matt Brownschidle, Winston Hu, Jay Ju, Steve Lin]
+    context: "Ross Investment Competition (University of Michigan), 2nd place"
+    summary: "US landfills fell from about 8,000 in 1988 to about 2,000 in 2014, so the ones left are worth more."
+    summary_status: approved
+
+  - {type: other, page: 2, title: "Welcome letter"}

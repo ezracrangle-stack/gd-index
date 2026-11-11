@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block title %}Investors{% endblock %}
+{% block description %}Every investor interviewed in Graham & Doddsville, with each appearance linked to its page in the original issue.{% endblock %}
+{% block main %}
+<h1 class="page-title">Investors</h1>
+<p class="dek">Everyone Graham &amp; Doddsville has interviewed, sorted by last name.</p>
+<form class="filter" role="search" onsubmit="return false"><label class="sr" for="f">Filter investors</label>
+  <input id="f" type="search" placeholder="Filter by name or firm" autocomplete="off"></form>
+<table class="mtable" id="list">
+  <thead><tr><th>Investor</th><th>Firm</th><th class="num">Interviews</th></tr></thead>
+  <tbody>
+  {% for inv in investors %}
+    <tr data-q="{{ inv.name }} {{ inv.firms|join(' ') }}">
+      <td class="who"><a href="{{ root }}p/{{ inv.slug }}.html">{{ inv.name }}</a></td>
+      <td class="style">{{ inv.firms|join(", ") }}</td>
+      <td class="num">{{ inv.hits|length }}<span class="latest">{{ inv.hits|map(attribute="issue")|map(attribute="label")|join(", ") }}</span></td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+{% endblock %}
+{% block scripts %}<script src="{{ root }}static/filter.js"></script>{% endblock %}

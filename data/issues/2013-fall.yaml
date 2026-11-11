@@ -1,0 +1,61 @@
+id: 2013-fall
+label: Fall 2013
+date: 2013-09
+number: 19
+pdf: https://business.columbia.edu/sites/default/files-efs/imce-uploads/Graham%20%26%20Doddsville%20-%20Issue%2019%20-%20Fall%202013.pdf
+pages: 32
+status: published
+
+items:
+  - type: interview
+    page: 1
+    continues: 4
+    investors:
+      - {name: Guy Spier, firm: Aquamarine Capital}
+    companies:
+      - {name: Fiat}
+      - {name: RPX}
+    topics: [career-advice, portfolio-construction]
+    summary: "Guy on going from Oxford and investment banking to managing money for friends and family, using checklists, cloning Mohnish Pabrai, his lunch with Buffett, and his position in Fiat."
+    summary_status: approved
+
+  - type: pitch
+    page: 16
+    company: Homex
+    security: "9.75% Senior Guaranteed Notes due 2020"
+    direction: long
+    students: [Peter Bowley]
+    context: "CSIMA Investment Ideas Club"
+    summary: "A credit pitch on Homex's dollar bonds at about 37 cents. Even with harsh downside cases, Peter needed only a 5% chance the notes kept performing."
+    summary_status: approved
+
+  - type: pitch
+    page: 18
+    company: Wabash National
+    direction: long
+    students: [Adam Trivison]
+    context: "CSIMA Investment Ideas Club"
+    summary: "Trucking fleets underinvested in 2008 to 2010, pushing trailer ages to records. Adam saw the trailer cycle still in its early innings."
+    summary_status: approved
+
+  - type: pitch
+    page: 20
+    company: Active Network
+    direction: long
+    students: [Wes Aull]
+    context: "CSIMA Investment Ideas Club"
+    summary: "Lower R&D once a new cloud platform was finished, plus better management, could expand EBITDA within a year."
+    summary_status: approved
+
+  - type: interview
+    page: 1
+    continues: 22
+    investors:
+      - {name: Steve Feilmeier, firm: Koch Industries}
+      - {name: Dave Robertson, firm: Koch Industries}
+    companies: []
+    topics: [private-equity, management]
+    summary: "Koch's CFO and president on finding businesses that are great on their own and also fit into what Koch already runs."
+    summary_status: approved
+
+  - {type: other, page: 2, title: "Welcome letter"}

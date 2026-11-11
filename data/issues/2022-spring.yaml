@@ -1,0 +1,53 @@
+id: 2022-spring
+label: Spring 2022
+date: 2022-05
+number: 45
+pdf: https://business.columbia.edu/sites/default/files-efs/imce-uploads/Graham%20%20Doddsville_Issue%2045_1.pdf
+pages: 44
+status: published
+
+items:
+  - type: interview
+    page: 4
+    investors:
+      - {name: Christopher Lin, firm: Fidelity}
+    companies:
+      - {name: Reliance Industries}
+    topics: [growth, technology, international]
+    summary: "Christopher has run Fidelity's OTC Fund, which Gavin Baker managed until 2017, for four years. He explains why he reads multiples as a measure of durability, his 'can anyone make this obsolete?' test, and Reliance Jio in India."
+    summary_status: approved
+
+  - type: pitch
+    page: 13
+    company: KKR
+    direction: long
+    students: [Dickson Pau]
+    context: "2022 Value Investing Program Artisan Challenge, 1st place"
+    summary: "Dickson argues the market underrates how long KKR can keep growing and what its scale and model are worth."
+    summary_status: approved
+
+  - type: interview
+    page: 15
+    investors:
+      - {name: Mark Cohen, firm: Stone House Partners}
+      - {name: Raphael Rabin-Havt, firm: Stone House Partners}
+    companies:
+      - {name: Scientific Games}
+      - {name: Copart}
+    topics: [special-situations, management]
+    summary: "Stone House traces back to driving around salvage auctions to research Copart. Mark and Raphi walk through Scientific Games and the management team that did it before at Aristocrat."
+    summary_status: approved
+
+  - type: interview
+    page: 27
+    investors:
+      - {name: Fred Liu, firm: Hayden Capital}
+    companies:
+      - {name: Afterpay}
+      - {name: Coinbase}
+      - {name: Zooplus}
+    topics: [growth, technology, international]
+    summary: "Fred started Hayden in 2014. He goes deep on Afterpay and buy-now-pay-later, explains his Coinbase position, and does a postmortem on Zooplus."
+    summary_status: approved
+
+  - {type: other, page: 2, title: "Welcome letter"}

@@ -1,0 +1,87 @@
+id: 2024-fall
+label: Fall 2024
+date: 2024-12
+number: 50
+pdf: https://business.columbia.edu/sites/default/files-efs/imce-uploads/Graham%20Doddsville%20Fall%202024%20Issue%20(Master)_120224_vF.pdf
+pages: 72
+status: published
+
+items:
+  - type: interview
+    page: 5
+    investors:
+      - {name: Nadim Rizk, firm: PineStone Asset Management}
+    companies:
+      - {name: TSMC}
+      - {name: Moody's}
+    topics: [quality-compounders, technology, financials]
+    summary: "Nadim grew up in Lebanon during the civil war. He explains how PineStone finds ideas and why it owns TSMC and Moody's."
+    summary_status: approved
+
+  - type: interview
+    page: 19
+    investors:
+      - {name: Kevin Tanner, firm: SaratogaRIM}
+    companies: []
+    topics: [moats, quality-compounders, firm-building, career-advice]
+    summary: "Kevin founded SaratogaRIM in 1995. He covers how he tests for a competitive advantage, valuation and sizing, and how he hires and trains analysts."
+    summary_status: approved
+
+  - type: pitches
+    page: 30
+    title: CBS Students' Investment Ideas
+
+  - type: pitch
+    page: 30
+    company: Valvoline
+    direction: long
+    students: [Jared Duda, Joe Ferguson, Garrett Wallis]
+    context: "2024 Pershing Square Challenge, 1st place"
+    summary: "Management can now put all its attention on quick-lube stores, and the team sees plenty of room to open more."
+    summary_status: approved
+
+  - type: pitch
+    page: 32
+    company: Blue Bird
+    direction: long
+    students: [Erik Listoe, Daniel Sohn, Yifan Wang]
+    context: "2024 Darden at Virginia Investing Challenge, 2nd place"
+    summary: "A leading North American school bus maker riding a replacement cycle and the move to electric fleets."
+    summary_status: approved
+
+  - type: interview
+    page: 34
+    investors:
+      - {name: Chris Waller, firm: Plural Investing}
+    companies:
+      - {name: TerraVest Industries}
+      - {name: Watches of Switzerland}
+      - {name: Seaport Entertainment Group}
+    topics: [small-caps, international, short-selling]
+    summary: "Chris on old-economy small caps, running a short book, and three ideas: TerraVest, Watches of Switzerland after Rolex bought Bucherer, and Seaport Entertainment."
+    summary_status: approved
+
+  - type: interview
+    page: 48
+    investors:
+      - {name: Elie Mishaan, firm: Bryant Street Capital Management}
+    companies:
+      - {name: Installed Building Products}
+      - {name: SPX Technologies}
+    topics: [special-situations, firm-building]
+    summary: "Elie came out of Lehman's M&A program and Corsair, where he covered companies going through change. He walks through Installed Building Products and SPX."
+    summary_status: approved
+
+  - type: interview
+    page: 65
+    investors:
+      - {name: David Baron, firm: Baron Capital}
+    companies:
+      - {name: SpaceX}
+      - {name: Spotify}
+    topics: [growth, technology]
+    summary: "David co-runs Baron Capital and its Focused Growth Fund. He covers how the firm finds growth ideas, owning SpaceX while it's private, and Spotify."
+    summary_status: approved
+
+  - {type: other, page: 2, title: "Welcome letter"}
+  - {type: other, page: 3, title: "Heilbrunn Center and CSIMA events"}

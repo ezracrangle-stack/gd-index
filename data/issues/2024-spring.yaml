@@ -1,0 +1,90 @@
+id: 2024-spring
+label: Spring 2024
+date: 2024-05
+number: 49
+pdf: https://business.columbia.edu/sites/default/files-efs/imce-uploads/Graham%20Doddsville%20Spring%202024%20Issue%20FINAL.pdf
+pages: 71
+status: published
+
+items:
+  - type: interview
+    page: 5
+    investors:
+      - {name: Jennifer Oppold, firm: Alpine Peaks Capital}
+    companies:
+      - {name: Inter Parfums}
+      - {name: HEICO}
+      - {name: Trex}
+    topics: [quality-compounders, short-selling, portfolio-construction, firm-building]
+    summary: "Jennifer started Alpine Peaks in 2017 after a decade at Select Equity. She runs long/short and long-only books and walks through Inter Parfums, HEICO and Trex."
+    summary_status: approved
+
+  - type: interview
+    page: 24
+    investors:
+      - {name: Adam Patinkin, firm: David Capital Partners}
+    companies:
+      - {name: Brown-Forman}
+      - {name: Vistry}
+      - {name: eDreams ODIGEO}
+      - {name: Lifecore Biomedical}
+    topics: [short-selling, special-situations, international, firm-building]
+    summary: "David Capital started in 2011 with $2 million. Adam explains his supply-side approach to shorts, with Brown-Forman as the example, and his value-plus-catalyst longs: Vistry, eDreams and Lifecore."
+    summary_status: approved
+
+  - type: interview
+    page: 38
+    investors:
+      - {name: Freddy Brick, firm: Muddy Waters}
+    companies:
+      - {name: Fairfax Financial}
+      - {name: Blackstone Mortgage Trust}
+    topics: [short-selling, activism, financials]
+    summary: "A Muddy Waters partner on how activist short selling works, activism in Japan, and the firm's two most recent shorts: Fairfax and Blackstone Mortgage Trust."
+    summary_status: approved
+
+  - type: pitches
+    page: 49
+    title: CBS Students' Investment Ideas
+
+  - type: pitch
+    page: 49
+    company: Enstar Group
+    direction: long
+    students: [Amar Kashyap]
+    context: "2024 Artisan International Growth Stock Pitch Challenge, 1st place"
+    summary: "A run-off reinsurer with a long record of excess returns. Amar valued it at $400 to $500 a share against a $267 price."
+    summary_status: approved
+
+  - type: pitch
+    page: 51
+    company: Janus International Group
+    direction: long
+    students: [Susan Liu, Garrett Wallis, Joe Ferguson]
+    context: "2023 UNC Alpha Challenge, 1st place"
+    summary: "The market leader in its niche, with about 80% of the institutional segment. The team set a one-year target 32% above the price."
+    summary_status: approved
+
+  - type: interview
+    page: 53
+    investors:
+      - {name: Noah Snyder, firm: Snöboll Capital}
+    companies:
+      - {name: Kelly Partners Group}
+      - {name: Vitec Software}
+      - {name: CBIZ}
+    topics: [international, management, quality-compounders, short-selling]
+    summary: "Noah looks for outsider CEOs, often outside the US. He talks about Kelly Partners in Australia, Vitec in Sweden and CBIZ, and what Golden Gloves boxing taught him about investing."
+    summary_status: approved
+
+  - type: interview
+    page: 64
+    investors:
+      - {name: Shayan Mozaffar, firm: 10x10y}
+    companies: []
+    topics: [short-selling, career-advice]
+    summary: "A profile written by student Richard Lalane of Shayan, who runs 10x10y and co-teaches The Analyst's Edge at CBS. He arrived in the US at 18 with $1,000."
+    summary_status: approved
+
+  - {type: other, page: 2, title: "Welcome letter"}
+  - {type: other, page: 3, title: "Heilbrunn Center and CSIMA events"}

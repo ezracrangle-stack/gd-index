@@ -1,0 +1,63 @@
+id: 2013-winter
+label: Winter 2013
+date: 2013-01
+number: 17
+pdf: https://business.columbia.edu/sites/default/files-efs/imce-uploads/Graham%20%26%20Doddsville%20-%20Issue%2017%20-%20Winter%202013.pdf
+pages: 56
+status: published
+
+items:
+  - {type: other, page: 3, title: "22nd Annual Graham & Dodd Breakfast"}
+
+  - type: interview
+    page: 1
+    continues: 4
+    investors:
+      - {name: Barry Rosenstein, firm: JANA Partners}
+      - {name: Scott Ostfeld, firm: JANA Partners}
+    companies: []
+    topics: [activism]
+    summary: "How JANA engages management constructively in activist campaigns, and how their entrepreneurial backgrounds shape the way they look at companies."
+    summary_status: approved
+
+  - type: interview
+    page: 1
+    continues: 14
+    investors:
+      - {name: Dan Krueger, firm: Owl Creek Asset Management}
+    companies: []
+    topics: [distressed, credit]
+    summary: "Why distressed debt is Dan's favorite place to hunt, and how the math of averaging down can create very good risk-return setups."
+    summary_status: approved
+
+  - type: interview
+    page: 1
+    continues: 28
+    investors:
+      - {name: Frank Martin, firm: Martin Capital Management}
+    companies: []
+    topics: [macro, portfolio-construction]
+    summary: "Frank picks stocks bottom-up but spends a lot of time on the macro picture. He explains his conservative positioning and the behavioral traps he works to avoid."
+    summary_status: approved
+
+  - type: interview
+    page: 1
+    continues: 42
+    investors:
+      - {name: Russell Glass, firm: RDG Capital}
+    companies: []
+    topics: [activism]
+    summary: "An activist who pushes undervalued companies to sell themselves, and why piles of cash at private equity firms and corporations pointed to more M&A."
+    summary_status: approved
+
+  - type: interview
+    page: 1
+    continues: 50
+    investors:
+      - {name: Jon Friedland, firm: Amici Capital}
+    companies: []
+    topics: [quality-compounders, international]
+    summary: "What makes a 'battleship' company, and why Jon looked for them in emerging markets."
+    summary_status: approved
+
+  - {type: other, page: 2, title: "Welcome letter"}

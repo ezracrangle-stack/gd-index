@@ -1,0 +1,58 @@
+id: 2010-fall
+label: Fall 2010
+date: 2010-11
+number: 10
+pdf: https://business.columbia.edu/sites/default/files-efs/imce-uploads/Newsletter%20Issue%2010_Fall2010_v4.pdf
+pages: 35
+status: published
+
+items:
+  - type: interview
+    page: 1
+    continues: 3
+    investors:
+      - {name: Steven Romick, firm: FPA}
+    companies: []
+    topics: [international, distressed]
+    summary: "'Finding conviction when others panic.' Steve explains the FPA Crescent Fund's free-range approach to capital, his preference for large international companies with pricing power, and the fund's move into distressed mortgages."
+    summary_status: approved
+
+  - type: interview
+    page: 1
+    continues: 11
+    investors:
+      - {name: Donald G. Smith, firm: Donald Smith & Co.}
+    companies: []
+    topics: [deep-value]
+    summary: "'Low decile, high return.' Donald volunteered for Ben Graham at UCLA. His fund buys the cheapest tenth of stocks by price to tangible book and compounded 15% a year over 30 years."
+    summary_status: approved
+
+  - type: interview
+    page: 2
+    continues: 24
+    investors:
+      - {name: Danilo Santiago, firm: Rational Asset Management}
+      - {name: Claudio Skilnik, firm: Rational Asset Management}
+    companies: []
+    topics: [portfolio-construction, firm-building]
+    summary: "Two CBS alumni engineers from São Paulo run a long-short fund on a fixed universe of 85 companies that mirror the US economy."
+    summary_status: approved
+
+  - type: pitch
+    page: 20
+    company: U.S. Physical Therapy
+    direction: long
+    students: [Ryan Coyle]
+    summary: "Growing demand for physical therapy and an attractive business model."
+    summary_status: approved
+
+  - type: pitch
+    page: 22
+    company: CoreLogic
+    direction: long
+    students: [Alex Latushkin]
+    summary: "A recent spin-off from First American, trading at $18 against an intrinsic value Alex put at $27."
+    summary_status: approved
+
+  - {type: other, page: 34, title: "Columbia Investment Management Conference"}
+  - {type: other, page: 2, title: "Welcome letter"}

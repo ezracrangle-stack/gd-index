@@ -1,0 +1,110 @@
+id: 2014-spring
+label: Spring 2014
+date: 2014-05
+number: 21
+pdf: https://business.columbia.edu/sites/default/files-efs/imce-uploads/Graham%20%26%20Doddsville%20-%20Issue%2021%20-%20Spring%202014.pdf
+pages: 46
+status: published
+
+items:
+  - {type: other, page: 3, title: "CSIMA Conference"}
+
+  - type: interview
+    page: 1
+    continues: 4
+    investors:
+      - {name: Philippe Jabre, firm: Jabre Capital Partners}
+    companies: []
+    topics: [international, firm-building]
+    summary: "Philippe started in convertible arbitrage in the 1980s. He explains how convertibles have changed, the move into equities, and what it takes to start a fund today."
+    summary_status: approved
+
+  - type: interview
+    page: 1
+    continues: 12
+    investors:
+      - {name: Arnold Van Den Berg, firm: Century Management}
+      - {name: Jim Brilliant, firm: Century Management}
+    companies: []
+    topics: [portfolio-construction, career-advice]
+    summary: "On discipline in money management and building a framework and a mental database from experience to make better decisions."
+    summary_status: approved
+
+  - type: pitches
+    page: 22
+    title: Pershing Square Finalist Pitches
+
+  - type: pitch
+    page: 22
+    company: Allegion
+    direction: long
+    students: [Brian Waterhouse, Matt Ford, Øystein Kværner]
+    context: "2014 Pershing Square Challenge, 1st place"
+    summary: "Growth should pick up as nonresidential construction recovers, and the European business can close its gap with peers. About 50% upside to the end of 2016."
+    summary_status: approved
+
+  - type: pitch
+    page: 24
+    company: Cablevision
+    direction: short
+    students: [Joe Goldschmid, Allen Keel, Mahmud Riffat]
+    context: "2014 Pershing Square Challenge, 2nd place"
+    summary: "Verizon FiOS was a real and growing threat, and the team saw about 52% return on the short."
+    summary_status: approved
+
+  - type: pitch
+    page: 26
+    company: Carnival
+    direction: long
+    students: [Juliana Bogoricin, Charles Buaron, Ben Isaac]
+    context: "2014 Pershing Square Challenge, finalist"
+    summary: "One-time setbacks hid the earnings power, with a two-year target about 53% above the price."
+    summary_status: approved
+
+  - type: pitch
+    page: 28
+    company: Clean Harbors
+    direction: long
+    students: [Matt Bracewell, Patrick Enriquez-Fischer, Pavel Kaganas]
+    context: "2014 Pershing Square Challenge, finalist"
+    summary: "A 12 to 18 month target 50% to 70% above the price, built on five points."
+    summary_status: approved
+
+  - type: pitch
+    page: 30
+    company: Naspers
+    direction: long
+    students: [Carter Roehl, George Taras, Luke Tashie]
+    context: "2014 Pershing Square Challenge, finalist"
+    summary: "The market valued Naspers' stakes in Tencent and Mail.ru at more than the whole company, so the rest came free."
+    summary_status: approved
+
+  - type: interview
+    page: 1
+    continues: 32
+    investors:
+      - {name: Eric Rosenfeld, firm: Crescendo Partners}
+    companies: []
+    topics: [activism, international]
+    summary: "Eric on becoming an activist, how Crescendo finds targets, and why so much of its activism happens in Canada."
+    summary_status: approved
+
+  - {type: other, page: 37, title: "Women in Investing"}
+
+  - type: interview
+    page: 1
+    continues: 38
+    investors:
+      - {name: H. Kevin Byun}
+    companies:
+      - {name: Knowles}
+      - {name: Liberty Broadband}
+      - {name: Liberty TripAdvisor Holdings}
+      - {name: Rayonier}
+    topics: [special-situations, spin-offs]
+    summary: "Kevin on special situations: spin-offs, liquidations and deals that reshape a company, with examples including Knowles, the Liberty spin-offs and Rayonier."
+    summary_status: approved
+    check: "The issue doesn't name Kevin Byun's firm in the text I could read."
+
+  - {type: other, page: 45, title: "2014 Moon Lee Prize Competition"}
+  - {type: other, page: 2, title: "Welcome letter"}

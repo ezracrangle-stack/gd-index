@@ -1,0 +1,89 @@
+id: 2019-spring
+label: Spring 2019
+date: 2019-05
+number: 36
+pdf: https://business.columbia.edu/sites/default/files-efs/imce-uploads/Graham%20%26%20Doddsville_Issue%2036_vF.pdf
+pages: 40
+status: published
+
+items:
+  - {type: other, page: 3, title: "2019 CSIMA Conference"}
+
+  - type: interview
+    page: 1
+    continues: 5
+    investors:
+      - {name: Yen Liow, firm: Aravt Global}
+    companies:
+      - {name: Black Knight}
+      - {name: GoDaddy}
+      - {name: TransDigm}
+    topics: [quality-compounders, technology]
+    summary: "Yen came from Ziff Brothers and runs Aravt with a narrow focus. He talks about systems design, TransDigm's FAA-driven niches, and two holdings: Black Knight and GoDaddy."
+    summary_status: approved
+
+  - type: pitches
+    page: 15
+    title: Students' Investment Ideas
+
+  - type: pitch
+    page: 15
+    company: Dollarama
+    direction: long
+    students: [Mingming Wu, Laurent Liu, K.Y. Wong]
+    context: "2019 Pershing Square Challenge, 1st place"
+    summary: "A long with friendly activism. Dollarama has 71% of Canada's dollar-store market, and the team argues analysts underestimate how far it can still grow."
+    summary_status: approved
+
+  - type: pitch
+    page: 17
+    company: Align Technology
+    direction: long
+    students: [Michael Wooten]
+    summary: "Pitched for its end-to-end digital workflow and for running the largest 3D manufacturing operation in the world."
+    summary_status: approved
+
+  - type: pitch
+    page: 20
+    company: Carsales.com
+    direction: long
+    students: [Tyler Redd]
+    summary: "An Australian car marketplace that draws more unique visitors relative to its home population than any of its peers."
+    summary_status: approved
+
+  - type: pitch
+    page: 22
+    company: Dean Foods
+    security: "6.50% Senior Unsecured Notes due 2023"
+    direction: long
+    students: [Mitchel Aulds-Stier, Karthik Kasibhatia, Angela Qin, James Shen]
+    context: "2019 UCLA Credit Pitch Competition, 1st place"
+    summary: "A credit pitch: the bonds traded at $66, and the team expected cost cuts and steadier dairy demand to pull them up."
+    summary_status: approved
+    check: "The page header says 'Lions Gate Entertainment (NYSE: LGF.A)', left over from another pitch. The welcome letter confirms this pitch is Dean Foods. Names as printed: 'Mitchel' under the photo, 'Mitchell' in the welcome letter; 'Kasibhatia' printed, email reads 'kasibhatla'."
+
+  - type: interview
+    page: 1
+    continues: 24
+    investors:
+      - {name: William P. Stewart, firm: Stewart Asset Management}
+    companies:
+      - {name: Amazon}
+    topics: [quality-compounders, career-advice]
+    summary: "Bill started on the floor of the New York Stock Exchange in 1955. He covers six decades of investing, how he sets terminal multiples, and why Amazon gets the highest one in his book."
+    summary_status: approved
+
+  - type: interview
+    page: 1
+    continues: 33
+    investors:
+      - {name: John Hempton, firm: Bronte Capital}
+    companies:
+      - {name: Valeant}
+      - {name: Herbalife}
+      - {name: Mattel}
+    topics: [short-selling, accounting, international]
+    summary: "John made public calls on Herbalife and Valeant. He explains how he hunts for fraud, why switching costs matter, and his view on Mattel."
+    summary_status: approved
+
+  - {type: other, page: 2, title: "Welcome letter"}

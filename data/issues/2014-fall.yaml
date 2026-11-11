@@ -1,0 +1,63 @@
+id: 2014-fall
+label: Fall 2014
+date: 2014-11
+number: 22
+pdf: https://business.columbia.edu/sites/default/files-efs/imce-uploads/Graham%20%26%20Doddsville_Issue%2022_Fall%202014_1.pdf
+pages: 39
+status: published
+
+items:
+  - {type: other, page: 3, title: "From Graham to Buffett and Beyond Omaha dinner"}
+  - {type: other, page: 4, title: "5x5x5 Student Value Investing Fund"}
+
+  - type: interview
+    page: 1
+    continues: 6
+    investors:
+      - {name: Wally Weitz, firm: Weitz Investment Management}
+    companies: []
+    topics: [management, portfolio-construction]
+    summary: "Wally on how his philosophy changed over the years, the discount he needs before he's interested, poking holes in a thesis, and how much cash he's willing to hold."
+    summary_status: approved
+
+  - type: interview
+    page: 1
+    continues: 14
+    investors:
+      - {name: Guy Gottfried, firm: Rational Investment Group}
+    companies: []
+    topics: [management, firm-building]
+    summary: "Guy learned under Bruce Berkowitz at Fairholme before starting Rational in 2009. He talks about partnering with strong management and keeping his discipline."
+    summary_status: approved
+
+  - type: pitches
+    page: 22
+    title: Columbia IIC Meeting Ideas
+
+  - type: pitch
+    page: 22
+    company: B&M European Value Retail
+    direction: short
+    students: [Sisy Wang]
+    summary: "An overhyped IPO pitched as 'the Dollar General of the UK, with Tesco management as chairman.'"
+    summary_status: approved
+
+  - type: pitch
+    page: 24
+    company: Countrywide
+    direction: long
+    students: [Kevin Lin]
+    summary: "Pitched with about 90% upside to the end of 2018, dividends included."
+    summary_status: approved
+
+  - type: interview
+    page: 1
+    continues: 26
+    investors:
+      - {name: Paul Tierney, firm: Development Capital Partners}
+    companies: []
+    topics: [international]
+    summary: "A New York manager that invests only in Africa, on the excitement and the problems of investing across the continent."
+    summary_status: approved
+
+  - {type: other, page: 2, title: "Welcome letter"}

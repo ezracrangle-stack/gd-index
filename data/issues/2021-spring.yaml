@@ -1,0 +1,64 @@
+id: 2021-spring
+label: Spring 2021
+date: 2021-05
+number: 42
+pdf: https://business.columbia.edu/sites/default/files-efs/imce-uploads/Graham%20%20Doddsville_Issue%2042_v8.pdf
+pages: 62
+status: published
+
+items:
+  - type: interview
+    page: 4
+    investors:
+      - {name: Brian Bares, firm: Bares Capital Management}
+    companies: []
+    topics: [small-caps, portfolio-construction, firm-building]
+    summary: "Brian Bares on running a concentrated small-cap book: heavy qualitative research, no screens, and positions that can reach 15%."
+    summary_status: approved
+
+  - type: pitches
+    page: 22
+    title: CBS Students' Investment Ideas
+
+  - type: pitch
+    page: 22
+    company: Dolby Laboratories
+    direction: long
+    students: [Paul Chandler, Jack Devine, David Kilgariff]
+    context: "2021 Pershing Square Challenge, 1st place"
+    summary: "A licensing business with 95% gross margins whose operating margin hides what it could earn as the next adoption cycle plays out."
+    summary_status: approved
+
+  - type: pitch
+    page: 24
+    company: Angi
+    direction: long
+    students: [Bill Henry, Tom Moore, Dickson Pau]
+    context: "2021 Pershing Square Challenge, 2nd place"
+    summary: "Angi moving from selling leads to pre-priced jobs, which the team sees as a better deal for homeowners and for the pros."
+    summary_status: approved
+
+  - type: interview
+    page: 26
+    investors:
+      - {name: Sean Stannard-Stockton, firm: Ensemble Capital}
+    companies:
+      - {name: Home Depot}
+      - {name: Mastercard}
+      - {name: Netflix}
+      - {name: Time Warner}
+      - {name: Live Nation}
+    topics: [moats, management, quality-compounders]
+    summary: "Ensemble's three pillars (moat, management, forecastability), the Time Warner mistake, Mastercard as a case study, and a long walk through Home Depot."
+    summary_status: approved
+
+  - type: interview
+    page: 48
+    investors:
+      - {name: Dan Rasmussen, firm: Verdad Advisers}
+    companies: []
+    topics: [quantitative, deep-value]
+    summary: "How Verdad turns empirical research into portfolios, what Dan took from Bain, and the books he leans on for forecasting."
+    summary_status: approved
+
+  - {type: other, page: 2, title: "Welcome letter"}

@@ -1,0 +1,76 @@
+name: Weekly G&D check
+
+on:
+  schedule:
+    - cron: "41 13 * * 1"     # every Monday, 13:41 UTC (7:41 am in Mexico City)
+  workflow_dispatch:           # "Run workflow" button in the Actions tab
+  push:
+    branches: [main]
+    paths:                     # rebuild right away when you edit these
+      - data/**
+      - templates/**
+      - static/**
+      - scripts/**
+      - site.yaml
+
+permissions:
+  contents: write              # save the check results and the rebuilt site
+  issues: write                # open an issue for a new issue or a problem
+
+concurrency:
+  group: gd-index
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Check Columbia's archive page for new issues
+        if: github.event_name != 'push'
+        run: python scripts/check.py
+
+      - name: Check the data files
+        run: python scripts/validate.py
+
+      - name: Build the site (published issues only)
+        run: python scripts/build.py
+
+      - name: Save changes
+        run: |
+          git config user.name  "gd-index-bot"
+          git config user.email "gd-index-bot@users.noreply.github.com"
+          git add data docs
+          git commit -m "Weekly check $(date -u +%F)" || echo "Nothing to commit"
+          git pull --rebase --autostash && git push
+
+      - name: Tell Ezra (new issue or something to look at)
+        if: hashFiles('alert.md') != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh label create gd-alert --color B60205 --description "Weekly check: needs a look" 2>/dev/null || true
+          OPEN=$(gh issue list --label gd-alert --state open --json number --jq '.[0].number')
+          if [ -n "$OPEN" ]; then
+            gh issue comment "$OPEN" --body-file alert.md
+          else
+            gh issue create --title "G&D Index: something needs a look" --label gd-alert --body-file alert.md
+          fi
+
+      - name: Tell Ezra if the workflow itself broke
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh label create gd-alert --color B60205 --description "Weekly check: needs a look" 2>/dev/null || true
+          gh issue create --title "G&D Index: the weekly run failed" --label gd-alert \
+            --body "The run failed before finishing. Nothing published was deleted. Details: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"

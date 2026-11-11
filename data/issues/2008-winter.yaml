@@ -1,0 +1,45 @@
+id: 2008-winter
+label: Winter 2007/2008
+date: 2008-01
+number: 3
+pdf: https://business.columbia.edu/sites/default/files-efs/imce-uploads/GrahamandDoddsville_winter_2008_final.pdf
+pages: 23
+status: published
+
+items:
+  - type: interview
+    page: 1
+    continues: 2
+    investors:
+      - {name: Jean-Marie Eveillard, firm: First Eagle Investment Management}
+    companies: []
+    topics: [international, deep-value]
+    summary: "Often called the first truly global value investor, Jean-Marie tells how Ben Graham 'simply made sense' to him while he was a young analyst for a French bank, and why he came back to run the First Eagle funds in 2007."
+    summary_status: approved
+
+  - type: pitch
+    page: 14
+    company: D.R. Horton
+    direction: short
+    students: [Joshua Chekofsky]
+    summary: "Joshua put intrinsic value at $7.25 against an $11.86 price."
+    summary_status: approved
+
+  - type: pitch
+    page: 16
+    company: Macy's
+    direction: long
+    students: [Del Anderson]
+    summary: "Shares punished for slow sales at the rebranded May stores, a short-term problem against a long-term value of about $37."
+    summary_status: approved
+
+  - type: pitch
+    page: 18
+    company: Netflix
+    direction: short
+    students: [Avram Drori]
+    summary: "Shorted at $21.75 on the argument that cable, satellite and telecom companies would make Netflix's model obsolete."
+    summary_status: approved
+
+  - {type: other, page: 20, title: "Industry networking series with Bruce Greenwald, William von Mueffling and David Greenspan"}
+  - {type: other, page: 2, title: "Welcome letter"}

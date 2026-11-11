@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}Topics{% endblock %}
+{% block description %}Graham & Doddsville interviews grouped by topic: small caps, short selling, international, special situations and more.{% endblock %}
+{% block main %}
+<h1 class="page-title">Topics</h1>
+<p class="dek">Interviews grouped by what they spend real time on. Most interviews sit under two or three topics.</p>
+<ul class="sectors big">
+{% for t in topics %}
+  <li><a href="{{ root }}t/{{ t.slug }}.html">{{ t.label }}</a><span class="ccount">{{ t.hits|length }}</span></li>
+{% endfor %}
+</ul>
+{% endblock %}

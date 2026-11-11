@@ -1,0 +1,92 @@
+id: 2020-fall
+label: Fall 2020
+date: 2020-11
+number: 40
+pdf: https://business.columbia.edu/sites/default/files-efs/imce-uploads/Graham%20%26%20Doddsville_Issue%2040_v19.pdf
+pages: 61
+status: published
+
+# Each interview opens on the cover (p. 1) and continues further in.
+
+items:
+  - type: interview
+    page: 1
+    continues: 3
+    investors:
+      - {name: Bill Nygren, firm: Harris Associates (Oakmark)}
+    companies:
+      - {name: Alphabet}
+      - {name: Netflix}
+      - {name: Ally Financial}
+    topics: [quality-compounders, financials, career-advice]
+    summary: "Bill has run Oakmark Select since 1996. He explains why GAAP numbers can hide value, using Alphabet's search business and Netflix, and Ally Financial at two-thirds of tangible equity."
+    summary_status: approved
+
+  - type: pitches
+    page: 20
+    title: CBS Students' Investment Ideas
+
+  - type: pitch
+    page: 20
+    company: Hanesbrands
+    direction: long
+    students: [April Yin, Maria Van Heeckeren, Joyce Zhang, Sherry Zhang]
+    context: "2020 Women in Investing Stock Pitch Competition"
+    summary: "A leader in basics like underwear and sportswear, which the team thinks the market valued below its growth potential."
+    summary_status: approved
+
+  - type: pitch
+    page: 22
+    company: TJX Companies
+    direction: long
+    students: [Cathy Yao, Flora Chai, Joanna Zhou, Wenbo Zhao]
+    summary: "The biggest off-price retailer, with room to open more stores in the US and abroad."
+    summary_status: approved
+
+  - type: pitch
+    page: 24
+    company: Farfetch
+    direction: long
+    students: [Dickson Pau]
+    summary: "A luxury fashion marketplace. Dickson argues the market overreacted when Amazon entered luxury."
+    summary_status: approved
+
+  - type: interview
+    page: 1
+    continues: 26
+    investors:
+      - {name: Ray Kennedy, firm: Hotchkis & Wiley}
+    companies: []
+    topics: [credit, distressed]
+    summary: "Ray runs Hotchkis's high-yield bond portfolios. He talks about buying credit in March 2020, what the Fed's support did to the market, and which pandemic-hit borrowers he thought would survive."
+    summary_status: approved
+
+  - type: interview
+    page: 1
+    continues: 38
+    investors:
+      - {name: Sarah Ketterer, firm: Causeway Capital Management}
+      - {name: Alessandro Valentini, firm: Causeway Capital Management}
+    companies:
+      - {name: Volkswagen}
+    topics: [international, management]
+    summary: "Causeway's approach to international value, with screening as a ranking tool, balance sheets strong enough to survive, and Volkswagen after the Dieselgate management cleanout."
+    summary_status: approved
+
+  - type: interview
+    page: 1
+    continues: 50
+    investors:
+      - {name: John Mullins, firm: Lyrical Asset Management}
+      - {name: Dan Kaskawits, firm: Lyrical Asset Management}
+    companies:
+      - {name: Ashtead}
+      - {name: Sony}
+      - {name: Nippo}
+      - {name: Bolloré}
+      - {name: Itochu}
+    topics: [international, asia, quality-compounders]
+    summary: "The two PMs behind Lyrical's international book. They screen for value first and then filter for quality, with Ashtead, Sony, Nippo, Bolloré and Itochu as examples."
+    summary_status: approved
+
+  - {type: other, page: 2, title: "Welcome letter"}

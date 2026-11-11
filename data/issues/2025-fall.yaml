@@ -1,0 +1,108 @@
+id: 2025-fall
+label: Fall 2025
+date: 2025-11
+number: 52
+pdf: https://business.columbia.edu/sites/default/files-efs/imce-uploads/Graham_Doddsville_Fall_2025_Issue_vfPrint_0.pdf
+pages: 67
+status: published
+
+items:
+  - type: interview
+    page: 5
+    investors:
+      - {name: Amelia Morris, firm: Brandes Investment Partners}
+      - {name: Michael Hutchens, firm: Brandes Investment Partners}
+    companies:
+      - {name: Watches of Switzerland}
+      - {name: NLB}
+    topics: [international, financials, consumer]
+    summary: "Two Brandes analysts, one on European consumer names and one on banks, on how the investment committees work. Watches of Switzerland and Slovenia's NLB are the examples."
+    summary_status: approved
+
+  - type: interview
+    page: 18
+    investors:
+      - {name: Jillian McIntyre, firm: 221B Capital Partners}
+    companies:
+      - {name: Carvana}
+      - {name: Overstock}
+    topics: [short-selling, technology, firm-building]
+    summary: "Jillian started 221B in 2024 after years at hedge funds and banks. She covers learning to short, her 5Ms framework, the Carvana call and a long case for Overstock."
+    summary_status: approved
+
+  - type: pitches
+    page: 26
+    title: CBS Students' Investment Ideas
+
+  - type: pitch
+    page: 26
+    company: dLocal
+    direction: long
+    students: [Bennett Lee, Srivats Mohan, Aaron Samuels, Oliver Suffern]
+    context: "2025 Booth MBA Stock Pitch Competition, 1st place"
+    summary: "An emerging-markets payments company where volume growth is picking up again, take-rate cuts are leveling off and a new management team is tightening execution."
+    summary_status: approved
+
+  - type: pitch
+    page: 28
+    company: Advance Auto Parts
+    security: "7.375% Senior Unsecured Notes due 2033"
+    direction: long
+    students: [Chidi Keng, Gabriel W Martins, James Michalski]
+    context: "2025 Chicago Booth Credit Pitch Competition, 1st place"
+    summary: "A credit pitch: the 2033 notes yield about 7.4%, and the team expects spreads to tighten as the business stabilizes."
+    summary_status: approved
+    check: "The issue prints 'Advanced Auto Parts'. Filed under Advance Auto Parts so it joins the 2016 pitch."
+
+  - type: pitch
+    page: 30
+    company: A.O. Smith
+    direction: long
+    students: [Craig Larkin, Olivia Qi, Elliot Tompras]
+    context: "2025 Darden at Virginia Investing Challenge, 1st place"
+    summary: "A 150-year-old water heater maker whose ties to plumbers and wholesalers keep its costs below rivals'."
+    summary_status: approved
+
+  - type: pitch
+    page: 32
+    company: MercadoLibre
+    direction: long
+    students: [Victor D. Aguiar, Carolina S. Alzamora, Alejandro L. Dodds, Leonardo M. Fernandes, Rogério Rios]
+    context: "Fall 2025 Security Analysis class, one of the two best presentations"
+    summary: "Expensive on next year's numbers. The team's 7 to 10 year case rests on MercadoLibre's scale in Latin American commerce and fintech."
+    summary_status: approved
+
+  - type: interview
+    page: 35
+    investors:
+      - {name: Hendrik Bessembinder, firm: Arizona State University}
+    companies: []
+    topics: [academic-research, portfolio-construction]
+    summary: "The professor behind the finding that a small share of stocks creates most of the market's wealth. He talks about the losers, what diversification really protects against, and his new work on founder CEOs."
+    summary_status: approved
+
+  - type: interview
+    page: 43
+    investors:
+      - {name: David Poppe, firm: Giverny Capital Asset Management}
+    companies:
+      - {name: Progressive}
+      - {name: Arista Networks}
+      - {name: Constellation Software}
+    topics: [quality-compounders, management, firm-building]
+    summary: "David co-founded Giverny Capital Asset Management in 2020. He talks about judging management and three holdings: Progressive, Arista, and Constellation Software after Mark Leonard."
+    summary_status: approved
+
+  - type: interview
+    page: 57
+    investors:
+      - {name: Andrew Rosenblum, firm: Bonsai Partners}
+    companies:
+      - {name: Fever-Tree}
+    topics: [quality-compounders, firm-building]
+    summary: "Andrew went from short selling to studying 100-baggers. He explains his idea of barriers to investment and why he likes Fever-Tree after the Molson Coors deal."
+    summary_status: approved
+
+  - {type: other, page: 2, title: "Welcome letter"}
+  - {type: other, page: 3, title: "Heilbrunn Center and CSIMA events"}
+  - {type: other, page: 34, title: "2024-25 CSIMA Simulated Fund winner: Olaoluwa Bobade"}

@@ -1,0 +1,110 @@
+id: 2014-winter
+label: Winter 2014
+date: 2014-01
+number: 20
+pdf: https://business.columbia.edu/sites/default/files-efs/imce-uploads/Graham%20%26%20Doddsville%20-%20Issue%2020%20-%20Winter%202014.pdf
+pages: 68
+status: published
+
+items:
+  - type: interview
+    page: 1
+    continues: 3
+    investors:
+      - {name: Ken Shubin Stein}
+    companies: []
+    topics: [portfolio-construction]
+    summary: "Ken on the structural and behavioral sides of investing and the methods his firm uses to improve its process, with present and past ideas."
+    summary_status: approved
+    check: "The cover calls him 'Dr. Ken Shubin Stein'; I couldn't read his firm's name in the text."
+
+  - type: interview
+    page: 1
+    continues: 18
+    investors:
+      - {name: Lee Ainslie, firm: Maverick Capital}
+    companies: []
+    topics: [firm-building, management, career-advice]
+    summary: "Lee on founding Maverick in 1993, hiring analysts and organizing sector teams, and a candid account of a 1995 merger investment that taught him management matters more than strategy."
+    summary_status: approved
+
+  - type: interview
+    page: 1
+    continues: 28
+    investors:
+      - {name: Geoffrey Batt, firm: Euphrates Iraq Fund}
+    companies: []
+    topics: [international]
+    summary: "Geoffrey went from philosophy student to frontier-markets investor focused on Iraq. He explains how he looks for markets about to be re-rated and shares ideas in Iraq."
+    summary_status: approved
+
+  - type: pitches
+    page: 42
+    title: Investment Ideas
+
+  - type: pitch
+    page: 42
+    company: Rocket Fuel
+    direction: short
+    students: [Matt Bracewell, Patrick Enriquez-Fischer, Brian Waterhouse]
+    context: "2013 Darden @ Virginia Investing Challenge, winner"
+    summary: "A recent ad-tech IPO with fast revenue growth, shorted with a $29 target."
+    summary_status: approved
+
+  - type: pitch
+    page: 44
+    company: XPO Logistics
+    direction: long
+    students: [Stephen Lieu]
+    context: "5th Annual Moon Lee Prize, finalist"
+    summary: "A three-year target 87% above the price, about a 23% IRR."
+    summary_status: approved
+
+  - type: pitch
+    page: 46
+    company: World Acceptance
+    direction: short
+    students: [Patrick Stadelhofer]
+    context: "5th Annual Moon Lee Prize, finalist"
+    summary: "A consumer lender shorted with a target 48% below the price."
+    summary_status: approved
+
+  - type: pitch
+    page: 48
+    company: Pandora
+    direction: long
+    students: [Akhil Subramanian]
+    context: "5th Annual Moon Lee Prize, finalist"
+    summary: "Internet radio with 72 million active users, pitched with a probability-weighted target 40% above the price."
+    summary_status: approved
+
+  - type: pitch
+    page: 50
+    company: Post Holdings
+    direction: long
+    students: [Jackson Thies]
+    context: "5th Annual Moon Lee Prize, finalist"
+    summary: "Post's cereal business stabilized after the spin-off, growing 2.5% in 2013 while the category shrank. Jackson saw 90% upside in three years."
+    summary_status: approved
+
+  - type: interview
+    page: 1
+    continues: 52
+    investors:
+      - {name: Jim Grant, firm: "Grant's Interest Rate Observer"}
+    companies: []
+    topics: [macro, credit]
+    summary: "Jim on a career in financial journalism, why the global financial system needs an overhaul, and how skepticism makes better journalists and investors."
+    summary_status: approved
+
+  - type: interview
+    page: 1
+    continues: 60
+    investors:
+      - {name: Justin Muzinich, firm: Muzinich & Co.}
+    companies: []
+    topics: [credit, international]
+    summary: "Justin on looking at credit ideas, running a credit-focused asset manager, and the opportunity he saw in European debt."
+    summary_status: approved
+
+  - {type: other, page: 2, title: "Welcome letter"}

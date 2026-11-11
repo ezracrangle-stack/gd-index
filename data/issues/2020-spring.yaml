@@ -1,0 +1,70 @@
+id: 2020-spring
+label: Spring 2020
+date: 2020-05
+number: 39
+pdf: https://business.columbia.edu/sites/default/files-efs/imce-uploads/Graham%20%26%20Doddsville_Issue%2039_v13_FINAL.pdf
+pages: 35
+status: published
+
+items:
+  - {type: other, page: 3, title: "2020 CSIMA Conference"}
+
+  - type: interview
+    page: 1
+    continues: 4
+    investors:
+      - {name: Alex Captain, firm: Cat Rock Capital Management}
+    companies:
+      - {name: Just Eat Takeaway}
+      - {name: Evolution Gaming}
+      - {name: TransDigm}
+    topics: [international, quality-compounders, management]
+    summary: "Alex was a partner at Tiger Global before he started Cat Rock in 2015. He makes the case for Just Eat Takeaway's room to grow in food delivery, plus Evolution Gaming and TransDigm."
+    summary_status: approved
+
+  - type: pitches
+    page: 16
+    title: CBS Students' Investment Ideas
+
+  - type: pitch
+    page: 16
+    company: EPAM Systems
+    direction: long
+    students: [Manas Bajaj, Akshay Chawla, Amitaabh Sahai]
+    context: "2020 Pershing Square Challenge, 1st place"
+    summary: "An IT services firm with strong industry tailwinds and an asset-light model, pitched at about a 24% IRR."
+    summary_status: approved
+
+  - type: pitch
+    page: 18
+    company: Sysco
+    direction: long
+    students: [Michael Weng, Kyle Campbell, Shaunak Misra]
+    context: "2020 Pershing Square Challenge, 2nd place"
+    summary: "The biggest food distributor, which the team expected to come out of the pandemic stronger than its rivals."
+    summary_status: approved
+
+  - type: pitch
+    page: 20
+    company: Verisk Analytics
+    direction: long
+    students: [Ruth Chen, Yi Cheng, Mark Hu]
+    context: "2020 Pershing Square Challenge, finalist"
+    summary: "A high-quality compounder with a moat and pricing power, bought in the March 2020 selloff."
+    summary_status: approved
+
+  - type: interview
+    page: 22
+    investors:
+      - {name: Mark Lee, firm: Mountaineer Partners Management}
+      - {name: John Hallowell, firm: Mountaineer Partners Management}
+      - {name: Greg Williams, firm: Mountaineer Partners Management}
+    companies:
+      - {name: Ingevity}
+      - {name: PG&E}
+      - {name: Clearway Energy}
+    topics: [special-situations, distressed, spin-offs]
+    summary: "Mark came from Contrarian Capital's distressed desk and started Mountaineer in 2012. The team reads EPA rules to size Ingevity's opportunity and explains why, after PG&E filed for bankruptcy, they found the better bet in Clearway's equity."
+    summary_status: approved
+
+  - {type: other, page: 2, title: "Welcome letter"}

@@ -1,0 +1,55 @@
+id: 2009-fall
+label: Fall 2009
+date: 2009-09
+number: 7
+pdf: https://business.columbia.edu/sites/default/files-efs/imce-uploads/Graham%20and%20Doddsville-%20Issue%207%20Fall%202009.pdf
+pages: 29
+status: published
+
+items:
+  - type: interview
+    page: 1
+    continues: 2
+    investors:
+      - {name: Howard Marks, firm: Oaktree Capital Management}
+    companies: []
+    topics: [credit, distressed, career-advice]
+    summary: "Howard on starting at Citibank in its 'nifty fifty' years, why he disliked being director of research, and the philosophy behind Oaktree and his memos: do an excellent job at a few things."
+    summary_status: approved
+
+  - type: pitch
+    page: 12
+    company: Amedisys
+    direction: long
+    students: [Kenneth Leslie]
+    summary: "The price implied almost no revenue growth on fears of Medicare reform. Kenneth expected margins to hold or widen."
+    summary_status: approved
+
+  - type: pitch
+    page: 14
+    company: Care Investment Trust
+    direction: long
+    students: [Eric DeLamarter]
+    summary: "Clearly undervalued on its assets, with near-term catalysts likely to close the gap."
+    summary_status: approved
+
+  - type: interview
+    page: 16
+    investors:
+      - {name: David Samra, firm: Artisan Partners}
+    companies: []
+    topics: [international, deep-value]
+    summary: "The lead PM of Artisan International Value, named Morningstar's 2008 international-stock manager of the year with Daniel O'Keefe, on his philosophy for buying cheap, good businesses abroad."
+    summary_status: approved
+
+  - type: interview
+    page: 22
+    investors:
+      - {name: Kevin Dreyer, firm: Gabelli}
+    companies:
+      - {name: Constellation Brands}
+    topics: [healthcare, career-advice]
+    summary: "A 2005 graduate of the value investing program, then associate PM on Gabelli's Asset and Healthcare funds, on starting a career in turbulent markets."
+    summary_status: approved
+
+  - {type: other, page: 2, title: "Welcome letter"}

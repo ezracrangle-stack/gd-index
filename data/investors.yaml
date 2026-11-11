@@ -1,0 +1,6 @@
+# One entry per investor whose name is printed in more than one way.
+# The key is the name shown on the site; aliases are other spellings found in issues.
+# Example:
+# William A. Ackman:
+#   aliases: [Bill Ackman, William Ackman]
+{}

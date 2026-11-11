@@ -1,0 +1,78 @@
+id: 2021-winter
+label: Winter 2021
+date: 2021-02
+number: 41
+pdf: https://business.columbia.edu/sites/default/files-efs/imce-uploads/Graham%20%26%20Doddsville_Issue%2041_v15.pdf
+pages: 57
+status: published
+
+# The cover is an image with no text layer. Pages come from the contents box on the cover.
+
+items:
+  - type: interview
+    page: 4
+    investors:
+      - {name: Arthur Young, firm: Tensile Capital Management}
+    companies:
+      - {name: Avalara}
+      - {name: Valvoline}
+      - {name: Dick's Sporting Goods}
+    topics: [special-situations, technology, firm-building]
+    summary: "Arthur was a litigator in Miami before he became an investor. He explains how that helps him study problems after they show up, and walks through Avalara, Valvoline's quick-lube business and Dick's Sporting Goods."
+    summary_status: approved
+
+  - type: pitches
+    page: 23
+    title: CBS Students' Investment Ideas
+
+  - type: pitch
+    page: 23
+    company: DXC Technology
+    direction: long
+    students: [Amitaabh Sahai]
+    context: "2021 Artisan International Value Stock Pitch Challenge, winner"
+    summary: "A turnaround under a CEO who arrived in September 2019, with earnings starting to stabilize."
+    summary_status: approved
+
+  - type: pitch
+    page: 25
+    company: Live Nation Entertainment
+    direction: long
+    students: [Will Husic, Harrison Liftman, Cathy Yao]
+    context: "2020 Darden at Virginia Investing Challenge (COVID-19 recovery theme)"
+    summary: "The world's largest live entertainment company, pitched as one of the big winners when concerts come back."
+    summary_status: approved
+
+  - type: pitch
+    page: 27
+    company: RealPage
+    direction: long
+    students: [Nathan Shapiro, Levente Merczel, Kyle Heck, Kirk Mahoney, Vineet Ahuja]
+    context: "MIT Sloan Investing Series Stock Pitch Competition"
+    summary: "Pitched with a one-year target 41% above the price, over a 4-year horizon."
+    summary_status: approved
+
+  - type: interview
+    page: 29
+    investors:
+      - {name: John Huber, firm: Saber Capital Management}
+    companies:
+      - {name: Etsy}
+      - {name: Apple}
+      - {name: NVR}
+    topics: [quality-compounders, firm-building]
+    summary: "John runs Saber on the original Buffett Partnership fee structure: no management fee. He goes deep on Etsy, explains how he thinks about Apple, and why he owns NVR."
+    summary_status: approved
+
+  - type: interview
+    page: 44
+    investors:
+      - {name: Wilmot Kidd, firm: Central Securities}
+      - {name: John Hill, firm: Central Securities}
+    companies:
+      - {name: Plymouth Rock}
+    topics: [quality-compounders, management, career-advice]
+    summary: "Central Securities has been a closed-end fund since 1929. Wil recalls being the numbers guy at Hayden Stone when it took part in Intel's first financing, and John explains why the private insurer Plymouth Rock is about 20% of the fund."
+    summary_status: approved
+
+  - {type: other, page: 2, title: "Welcome letter"}

@@ -1,0 +1,89 @@
+id: 2011-winter
+label: Winter 2011
+date: 2011-02
+number: 11
+pdf: https://business.columbia.edu/sites/default/files-efs/imce-uploads/GDNewsletterWinter2011.pdf
+pages: 54
+status: published
+
+# Older layout: no page numbers on the cover. Start pages come from the
+# cover's "Continued on page" markers and the running headers.
+
+items:
+  - type: interview
+    page: 1
+    continues: 5
+    investors:
+      - {name: Larry Robbins, firm: Glenview Institutional Partners}
+    companies: []
+    topics: [healthcare, career-advice]
+    summary: "Larry went from trading options on the Chicago floor to Omega and then Glenview. He shares his analogies for the market, his intense research process, and a few ideas he liked at the time."
+    summary_status: approved
+
+  - type: interview
+    page: 1
+    continues: 17
+    investors:
+      - {name: Robert Robotti, firm: Robotti & Company}
+    companies: []
+    topics: [small-caps, deep-value]
+    summary: "'Small caps, big winners.' Bob started in public accounting and at Gabelli, and has run his firm's money for almost 30 years with a research-heavy focus on small and mid caps."
+    summary_status: approved
+
+  - type: interview
+    page: 2
+    continues: 40
+    investors:
+      - {name: Artie Williams, firm: Summit Street Capital Management}
+      - {name: Jennifer Wallace, firm: Summit Street Capital Management}
+      - {name: Judd Kahn, firm: Summit Street Capital Management}
+    companies: []
+    topics: [quality-compounders, portfolio-construction]
+    summary: "A disciplined long-only fund that starts from a consistent process built on valuation and business-quality measures."
+    summary_status: approved
+
+  - {type: other, page: 3, title: "Omaha trek with Warren Buffett, January 2011"}
+
+  - type: pitches
+    page: 32
+    title: Moon Lee Prize finalists
+
+  - type: pitch
+    page: 32
+    company: Blount International
+    direction: long
+    students: [Todd Brunner]
+    context: "2011 Moon Lee Prize, finalist"
+    summary: "A sparsely followed $1 billion maker of chainsaw parts with 60% to 70% of its global niche."
+    summary_status: approved
+
+  - type: pitch
+    page: 34
+    company: Williams Companies
+    direction: long
+    students: [TJ Carter]
+    context: "2011 Moon Lee Prize, winner"
+    summary: "An integrated natural gas company, cheap with a catalyst, pitched with 35% to 60% upside."
+    summary_status: approved
+
+  - type: pitch
+    page: 36
+    company: OPAP
+    direction: long
+    students: [Eric Hagemann]
+    context: "2011 Moon Lee Prize, finalist"
+    summary: "Greece's exclusive operator of sports betting and numbers games: an exceptional business that happens to be in Greece."
+    summary_status: approved
+
+  - type: pitch
+    page: 38
+    company: Iridium Communications
+    direction: short
+    students: [Patrick Sullivan]
+    context: "2011 Moon Lee Prize, finalist"
+    summary: "A structural short: Iridium planned to spend about $3 billion on its next-generation satellites."
+    summary_status: approved
+
+  - {type: other, page: 52, title: "Second Annual Moon Lee Prize for Excellence"}
+  - {type: other, page: 53, title: "Bill Ackman and Michael Ashner presentation"}
+  - {type: other, page: 2, title: "Welcome letter"}

@@ -1,0 +1,86 @@
+id: 2025-spring
+label: Spring 2025
+date: 2025-05
+number: 51
+pdf: https://business.columbia.edu/sites/default/files-efs/imce-uploads/Graham_Doddsville_Spring_2025_Issue_.pdf
+pages: 72
+status: published
+
+items:
+  - type: interview
+    page: 4
+    investors:
+      - {name: Beeneet Kothari, firm: Tekne Capital Management}
+    companies:
+      - {name: NVIDIA}
+    topics: [technology, ai, international, portfolio-construction]
+    summary: "Tekne holds about 10 technology names outside the US. Beeneet explains how he picks them, whether he hedges, and why the AI debate is the only one that matters to him right now."
+    summary_status: approved
+
+  - type: interview
+    page: 19
+    investors:
+      - {name: Roger Fan, firm: RF Capital Management}
+    companies:
+      - {name: Zengame Technology}
+      - {name: Sprouts Farmers Market}
+    topics: [small-caps, international, consumer, firm-building]
+    summary: "Roger came in without the usual Ivy League and Goldman résumé and started RF Capital in 2017. He walks through Zengame, a Hong Kong-listed position, and Sprouts."
+    summary_status: approved
+
+  - type: pitches
+    page: 34
+    title: CBS Students' Investment Ideas
+
+  - type: pitch
+    page: 34
+    company: RB Global
+    direction: long
+    students: [Xuechung (Elsa) Fu, Xutong Liu, Yifan Wang]
+    context: "2024 Neuberger Sustainable Investing Challenge, 1st place"
+    summary: "The largest auction platform for used heavy equipment, now also half of the US salvage-car duopoly after buying IAA."
+    summary_status: approved
+
+  - type: pitch
+    page: 36
+    company: Carlisle Companies
+    direction: long
+    students: [Tuan Nguyen, Erik Listoe, Dimitry Karavaikin]
+    context: "18th Annual Pershing Square Challenge, 1st place"
+    summary: "Eight years spent turning a 5-segment conglomerate into a pure building-products company. The team thinks the market hasn't caught up."
+    summary_status: approved
+
+  - type: pitch
+    page: 38
+    company: Eternal (formerly Zomato)
+    direction: long
+    students: [Aman Goyal]
+    context: "3rd Annual Kawaja Growth Stock Pitch Challenge, 1st place"
+    summary: "India's leading food delivery app plus Blinkit in quick commerce. The stock fell about 35% when Eternal decided to spend heavily on Blinkit."
+    summary_status: approved
+
+  - type: interview
+    page: 40
+    investors:
+      - {name: Scott Rosenthal, firm: Hotchkis & Wiley Capital Management}
+    companies:
+      - {name: Siemens}
+      - {name: Nippon Sanso}
+    topics: [international, management]
+    summary: "How Hotchkis runs a contrarian value process by team, with no star PMs. Scott walks through Siemens and Nippon Sanso."
+    summary_status: approved
+
+  - type: interview
+    page: 53
+    investors:
+      - {name: Benjamin Beneche, firm: Tourbillon Investment Partnership}
+      - {name: Ramesh Narayanaswamy, firm: Tourbillon Investment Partnership}
+    companies:
+      - {name: Nintendo}
+    topics: [international, portfolio-construction, firm-building]
+    summary: "Tourbillon's three pillars (fulcrum assets, symbiotic loops and outlier management) and a long section on Nintendo and the Switch 2."
+    summary_status: approved
+
+  - {type: other, page: 2, title: "Welcome letter"}
+  - {type: other, page: 3, title: "Heilbrunn Center and CSIMA events"}
+  - {type: other, page: 71, title: "Financial Statement Analysis for Value Investing (book)"}
