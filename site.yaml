@@ -4,7 +4,7 @@ letters_url: https://letters.ezrasnotes.com
 linkedin_url: https://www.linkedin.com/in/ezracrangle/
 x_url: https://x.com/EzraCrangle
 substack_url: https://substack.com/@ezracrangle
-ga_id: ""            # Google Analytics ID for this site, e.g. G-XXXXXXX
+ga_id: "G-7CN8KJT7FR"            # Google Analytics ID for this site, e.g. G-XXXXXXX
 contact_user: letters   # contact address is letters@ezrasnotes.com
 contact_domain: ezrasnotes.com
 columbia_archive: https://business.columbia.edu/heilbrunn/resources/graham-and-doddsville-newsletter
