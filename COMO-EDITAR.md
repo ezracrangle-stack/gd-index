@@ -14,7 +14,7 @@ Cuando guardas un cambio en GitHub, el sitio se reconstruye solo. Tarda 2 o 3 mi
 Reglas de oro:
 - Respeta los espacios al principio de cada línea. Usa la barra espaciadora, nunca Tab.
 - Los textos van entre comillas `"..."`. Si el texto lleva comillas por dentro, usa comillas simples dentro: `"He calls it 'the moat'."`
-- No uses guiones largos (—). La revisión automática los rechaza.
+- En los resúmenes no uses guiones largos (—). La revisión automática los rechaza.
 
 ## Corregir un resumen
 
