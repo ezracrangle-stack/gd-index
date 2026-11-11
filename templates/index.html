@@ -7,9 +7,11 @@
   <p class="small">{{ counts.issues }} issue{{ "s" if counts.issues != 1 }}, {{ counts.interviews }} interviews and {{ counts.pitches }} student pitches indexed so far. New issues are added after they come out.</p>
 </section>
 
+{% include "_letters_ad.html" %}
+
 <section>
   <h2 class="rule-head">Issues</h2>
-  <ol class="letters issues">
+  <ol class="letters issues" id="issues">
   {% for iss in issues %}
     <li>
       <span class="period"><a href="{{ root }}i/{{ iss.id }}.html">{{ iss.label }}</a>{% if iss.draft %} <span class="draft-tag">Draft</span>{% endif %}</span>
@@ -21,3 +23,5 @@
   </ol>
 </section>
 {% endblock %}
+{% block scripts %}<script src="{{ root }}static/pager.js"></script>
+<script>(function(){var l=document.getElementById('issues');if(l&&window.gdPager)window.gdPager(l,l.children,12)(false);})();</script>{% endblock %}

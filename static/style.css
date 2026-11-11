@@ -324,3 +324,5 @@ footer { margin-top: 56px; padding-top: 14px; border-top: 3px double var(--rule)
 .pager button:disabled { opacity: .35; cursor: default; }
 .pager .gap { padding: 0 2px; color: var(--mute); }
 .pager .pinfo { margin-left: 8px; color: var(--mute); }
+.wanted-head a { color: var(--ink); text-decoration: none; }
+.footer-follow { margin-top: 10px; }

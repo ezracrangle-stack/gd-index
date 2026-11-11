@@ -11,7 +11,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="static/style.css?v=1794399934">
+<link rel="stylesheet" href="static/style.css?v=1794400328">
 <link rel="alternate" type="application/rss+xml" title="The G&D Index · Ezra's Notes" href="feed.xml">
 
 <meta property="og:title" content="The G&D Index · Ezra's Notes">
@@ -57,9 +57,15 @@
   <p class="small">50 issues, 171 interviews and 150 student pitches indexed so far. New issues are added after they come out.</p>
 </section>
 
+<aside class="wanted">
+  <p class="wanted-kicker">Also free</p>
+  <p class="wanted-head"><a href="https://letters.ezrasnotes.com">Investor Letters</a></p>
+  <p class="wanted-body">Every quarter I read letters from a short list of fund managers. The ones worth your time are at <a href="https://letters.ezrasnotes.com">letters.ezrasnotes.com</a>, each linked to the manager's own site. No sign-up, no paywall.</p>
+</aside>
+
 <section>
   <h2 class="rule-head">Issues</h2>
-  <ol class="letters issues">
+  <ol class="letters issues" id="issues">
   
     <li>
       <span class="period"><a href="i/2026-spring.html">Spring 2026</a></span>
@@ -424,10 +430,16 @@
     <a href="feed.xml">RSS</a>
     <a href="about.html">About</a>
   </p>
+  <p class="footer-links footer-follow">
+    <a href="https://x.com/EzraCrangle" rel="me">Follow me on X</a>
+    <a href="https://www.linkedin.com/in/ezracrangle/" rel="me">Follow me on LinkedIn</a>
+    <a href="https://substack.com/@ezracrangle" rel="me">Follow me on Substack</a>
+  </p>
   <p class="rights">Graham &amp; Doddsville belongs to Columbia Business School and its student editors. Every link opens the PDF on Columbia's website. Nothing here is investment advice.</p>
 </footer>
 <script>document.querySelectorAll('a.mail').forEach(function(a){var e=a.dataset.u+'@'+a.dataset.d;a.href='mailto:'+e;a.textContent=e;});</script>
 <script>(function(){var b=document.getElementById('theme-toggle'),r=document.documentElement;function label(){b.textContent=r.getAttribute('data-theme')==='dark'?'Light':'Dark'}label();b.addEventListener('click',function(){var t=r.getAttribute('data-theme')==='dark'?'light':'dark';r.setAttribute('data-theme',t);try{localStorage.setItem('theme',t)}catch(e){}label()})})();</script>
-
+<script src="static/pager.js"></script>
+<script>(function(){var l=document.getElementById('issues');if(l&&window.gdPager)window.gdPager(l,l.children,12)(false);})();</script>
 </body>
 </html>
