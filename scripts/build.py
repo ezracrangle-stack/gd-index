@@ -5,6 +5,7 @@
 """
 import argparse
 import hashlib
+from zoneinfo import ZoneInfo
 import datetime as dt
 import json
 import re
@@ -45,7 +46,8 @@ def alias_map(table):
 
 def checked_on():
     """Build date, shown as 'Updated ...' in the header. The site only rebuilds when the data changes."""
-    return dt.date.today().strftime("%B %-d, %Y")
+    # Mexico City time, so a build late at night isn't stamped with tomorrow's date.
+    return dt.datetime.now(ZoneInfo("America/Mexico_City")).strftime("%B %-d, %Y")
 
 
 def main():
