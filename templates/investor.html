@@ -1,5 +1,7 @@
 {% extends "base.html" %}
 {% from "_items.html" import interview %}
+{% from "_subscribe.html" import subscribe %}
+{% set no_end_subscribe = true %}
 {% block title %}{{ inv.name }} in Graham & Doddsville{% endblock %}
 {% block description %}{{ inv.name }}{% if inv.firms %} ({{ inv.firms|join(", ") }}){% endif %} in Graham & Doddsville: {{ inv.hits|length }} interview{{ "s" if inv.hits|length != 1 }}, linked to the page in each issue.{% endblock %}
 {% block main %}
@@ -8,4 +10,5 @@
 {% if inv.firms %}<p class="firm-line big">{{ inv.firms|join(", ") }}</p>{% endif %}
 <p class="dek">{{ inv.hits|length }} interview{{ "s" if inv.hits|length != 1 }} in Graham &amp; Doddsville.</p>
 <ul class="hits">{% for it in inv.hits %}{{ interview(it, root, show_issue=True, me=inv.slug) }}{% endfor %}</ul>
+{{ subscribe("investor", "mid", inv.name) }}
 {% endblock %}

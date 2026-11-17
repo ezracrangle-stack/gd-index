@@ -326,3 +326,8 @@ footer { margin-top: 56px; padding-top: 14px; border-top: 3px double var(--rule)
 .pager .pinfo { margin-left: 8px; color: var(--mute); }
 .wanted-head a { color: var(--ink); text-decoration: none; }
 .footer-follow { margin-top: 10px; }
+.sister { margin: 40px 0; padding: 18px; border: 2px solid var(--ink); text-align: center; }
+.sister-kicker { margin: 0 0 8px; font: 11px/1.2 var(--head); text-transform: uppercase; letter-spacing: .2em; }
+.sister-head { margin: 0 0 6px; font: 22px/1.15 var(--head); }
+.sister-head a { text-decoration: none; }
+.sister-body { margin: 0 0 14px; font-size: 16px; }

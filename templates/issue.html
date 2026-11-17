@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% from "_items.html" import interview, pitch, pg %}
+{% from "_subscribe.html" import subscribe %}
 {% block title %}Graham & Doddsville, {{ iss.label }}{% endblock %}
 {% block description %}What's in the {{ iss.label }} issue of Graham & Doddsville: {% for it in iss.interviews %}{{ it.people|map(attribute="name")|join(" & ") }}{{ ", " if not loop.last }}{% endfor %}, and {{ iss.pitches|length }} student pitches, with page numbers.{% endblock %}
 {% block main %}
@@ -13,6 +14,7 @@
 <h2 class="rule-head">Interviews</h2>
 <ul class="hits">{% for it in iss.interviews %}{{ interview(it, root) }}{% endfor %}</ul>
 {% endif %}
+{{ subscribe("issue", "mid") }}
 
 {% if iss.pitches %}
 <h2 class="rule-head">Student pitches</h2>
