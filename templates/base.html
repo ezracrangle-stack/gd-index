@@ -57,7 +57,7 @@
     <a href="{{ root }}companies.html"{% if page == 'companies.html' or sect == 'c' %} aria-current="page"{% endif %}>Companies</a>
     <a href="{{ root }}pitches.html"{% if page == 'pitches.html' %} aria-current="page"{% endif %}>Pitches</a>
     <a href="{{ root }}topics.html"{% if page == 'topics.html' or sect == 't' %} aria-current="page"{% endif %}>Topics</a>
-    <a href="{{ root }}search.html"{% if page == 'search.html' %} aria-current="page"{% endif %}>Search</a>
+    <a href="{{ root }}search.html" title="Search (shortcut: /)"{% if page == 'search.html' %} aria-current="page"{% endif %}>Search</a>
     <a href="{{ root }}about.html"{% if page == 'about.html' %} aria-current="page"{% endif %}>About</a>
   </nav>
 </header>
@@ -114,5 +114,9 @@
   });
 })();
 </script>
+<script>(function(){
+document.querySelectorAll('a.mail-report').forEach(function(a){var e=a.dataset.u+'@'+a.dataset.d;a.href='mailto:'+e+'?subject='+encodeURIComponent(a.dataset.s)+'&body='+encodeURIComponent(location.href+'\n\n');a.addEventListener('click',function(){if(window.gtag)gtag('event','broken_link_report',{page:location.pathname});});});
+document.addEventListener('keydown',function(e){if(e.key!=='/'||e.ctrlKey||e.metaKey||e.altKey)return;var t=e.target;if(t&&(t.isContentEditable||/^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName)))return;e.preventDefault();var box=document.querySelector('#q,#cfind,#filter,#f');if(box){box.focus();box.select&&box.select();}else{location.href='{{ root }}search.html';}});
+})();</script>
 </body>
 </html>
